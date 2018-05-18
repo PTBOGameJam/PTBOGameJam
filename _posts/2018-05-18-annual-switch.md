@@ -3,7 +3,7 @@ layout: post-release
 title:  "Annual Announcement"
 date:   2018-05-18 13:00:00 -0400
 categories: ["media-releases"]
-tags: ["05", "announcement", "dotbunny"]
+tags: ["05", "announcement"]
 code: 2018-05-18-annual-switch
 excerpt: "PTBO Game Jam Switches to Yearly"
 image: 2018-05-18-annual-switch.jpg
