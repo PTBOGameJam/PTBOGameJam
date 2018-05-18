@@ -1,13 +1,17 @@
-title:            "PTBO Game Jam 04"
+title:            "PTBO Game Jam 05"
 link:             "/event/"
 ics:              "#notarget"
 #ics:              "/content/ics/PTBOGameJam02.ics"
-date_long:        "February 2018"
-#date_long:        "August 4-6 2017"
-date_short:       "February 2018"
-#date_short:       "4-6 Feb 2017"
-date_countdown:   "5 Aug 2017 09:00"
-countdown:        "5 august 2017 09:00:00"
+
+# date_long:        "February 23-25 2018"
+# date_short:       "23-25 Feb 2018"
+# date_countdown:   "24 Feb 2018 09:00"
+# countdown:        "24 february 2018 09:00:00"
+
+date_long:        "October 2018"
+date_short:       "Oct 2018"
+date_countdown:   "24 Feb 2018 09:00"
+countdown:        "24 february 2018 09:00:00"
 
 hours_work:       "32"
 hours_edu:        "5"
@@ -26,9 +30,9 @@ address-1:        "599 Brealey Drive"
 address-2:        "Peterborough, Ontario K9J 7B1"
 address-3:        ""
 
-registration:     "https://ptbogamejam04.eventbrite.ca"
-#spots:            "120"
-spots:            "100+"
+#registration:     "https://ptbogamejam04.eventbrite.ca"
+registration:     "#soon"
+spots:            "100"
 
 
-latest_video:     "https://player.vimeo.com/video/230401383"
+latest_video:     "https://player.vimeo.com/video/256631090"

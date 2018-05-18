@@ -25,6 +25,26 @@ breadcrumb: archive
       <div class="eight columns">
         <div class="content-spacer"><iframe src="https://player.vimeo.com/video/230401383" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>
       </div>
+      
+
+      <div class="jx-sponsors sponsor-list">
+          <div class="jx-section-title title-light jx-dark">
+              <div class="jx-title jx-uppercase" style="clear: both; padding-top: 50px">EVENT <span>SPONSORS</span></div>
+              <div class="jx-hr-title"></div>
+          </div>
+        <ul>
+          <li><a href="http://dotbunny.com"><div class="slide-contents gold-tier"><img src="/content/img/event/02/sponsors/dotbunny.jpg" alt="dotBunny"></div></a></li>
+          <li><a href="https://flemingcollege.ca/school/trades-and-technology"><div class="slide-contents gold-tier"><img src="/content/img/event/02/sponsors/fleming.jpg" alt="Fleming College - School of Trades and Technology"></div></a></li>
+          <li><a href="http://www.funkyrustic.net/"><div class="slide-contents silver-tier"><img src="/content/img/event/02/sponsors/funkyrustic.jpg" alt="Funky Rustic"></div></a></li>
+          <li><a href="http://communityfuturespeterborough.ca/"><div class="slide-contents bronze-tier"><img src="/content/img/event/02/sponsors/cfpeterborough.jpg" alt="Community Futures Peterborough"></div></a></li>
+          <li><a href="http://liftlockstudios.com/"><div class="slide-contents bronze-tier"><img src="/content/img/event/02/sponsors/liftlock.jpg" alt="Liftlock Studios"></div></a></li>
+          <li><a href="http://www.primaip.com/"><div class="slide-contents bronze-tier"><img src="/content/img/event/03/sponsors/primaip.jpg" alt="Prima IP"></div></a></li>
+          <li><a href="http://unity3d.com"><div class="slide-contents bronze-tier"><img src="/content/img/event/02/sponsors/unity.jpg" alt="Unity"></div></a></li>
+          <li><a href="https://www.igda.org/"><div class="slide-contents bronze-tier"><img src="/content/img/event/03/sponsors/igda.jpg" alt="IGDA"></div></a></li>
+        </ul>
+      </div>
+
+
   </div>
 </div>
 
@@ -79,7 +99,6 @@ breadcrumb: archive
   </div>
 </div>
 
-<!-- Gallery -->
 <div id='gallery' class="jx-container container-no-margin jx-padding jx-black-bg background-008">
   <div class="container ">
       <div class="jx-section-title-1 jx-dark">
@@ -89,7 +108,7 @@ breadcrumb: archive
           <div class="jx-title jx-uppercase">Photos</div>
           <div class="jx-subtitle"><p>We were fortunate enough to have Randy Nickerson stop by and take some awesome photos. We also grabbed a few ourselves!</p></div>
       </div>
-      {% for image in site.data.03-gallery %}
+      {% for image in site.data.gallery-03 %}
       <div class="jx-grid-item">
           <div class="jx-image jx-image-wrapper"><img width="400" src="{{ image.img | prepend: site.baseurl }}" alt="{{ image.alt }}" hdpi="true"/>
             <a href="{{ image.url | prepend: site.baseurl }}" title="{{ image.title }}" data-rel="prettyPhoto[event]">

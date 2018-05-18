@@ -149,33 +149,6 @@
 			font-size: 16px !important;
 		}
 
-		.jx-event-box .jx-event-date .jx-event-day {
-			font-size: 40px !important;
-		}
-
-		.jx-event-box .jx-event-date .jx-event-day span {
-			font-size: 20px !important;
-		}
-
-		.jx-event-box .jx-event-date .jx-event-month {
-			font-size: 20px !important;
-		}
-
-		.jx-event-box-register.jx-register-box-2 .jx-event-date .jx-event-day {
-			font-size: 30px !important;
-		}
-
-		.jx-event-box-register .jx-event-register {
-			display:none;
-		}
-
-
-		.jx-event-box-counter .jx-event-date {
-			height: 120px !important;
-			width: 120px !important;
-			padding-top: 10px !important;
-		}
-
 		.jx-event-play i {
 			width: 80px !important;
 			height: 80px !important;
@@ -183,23 +156,8 @@
 			font-size: 30px !important;
 		}
 
-		.jx-event-box-register.jx-register-box-2 .jx-event-date {
-			width: 300px !important;
-			height: 70px !important;
-		}
-
-		.jx-event-box-register .jx-event-title-box {
-			height: 120px !important;
-		}
-
 		.jx-event-title-box {
 			width: 300px !important;
-			height: 120px !important;
-		}
-
-
-		.jx-event-box .jx-event-date {
-			width: 120px !important;
 			height: 120px !important;
 		}
 
@@ -209,29 +167,8 @@
 			padding-top: 20px !important;
 		}
 
-		.jx-event-box-register .jx-event-date {
-			height: 120px !important;
-		}
-
 		.jx-event-countdown {
 			display:none !important;
-		}
-
-		.jx-event-box-counter .jx-event-title-box {
-			width: 300px !important;
-			height: 120px !important;
-		}
-
-		.jx-event-box.jx-event-box-register {
-			top: 120px !important;
-		}
-
-		.jx-right-vertical-border .jx-date .jx-slider-day {
-			font-size: 35px !important;
-		}
-
-		.jx-right-vertical-border .jx-date .jx-slider-month {
-			font-size: 30px !important;
 		}
 
 		.jx-right-vertical-border {
@@ -248,25 +185,10 @@
 		[8.0  Slider ]
 	---------------------------------------------------------------*/
 
-		.jx-slider-bottom-info {
+		.lander-info {
 			display:none;
 		}
-
-		.jx-main-slider .flexslider {
-			position:inherit !important;
-		}
-
-		.jx-event-box .jx-event-date {
-			padding: 28px 0px 0px 0px !important;
-		}
-
-		.jx-event-box-counter .jx-event-date {
-			padding-top: 28px !important;
-		}
-
-		.jx-event-box-counter .jx-event-date {
-			padding-top: 30px !important;
-		}
+		
 
 	/*---------------------------------------------------------------
 		[9.0  According ]
@@ -451,12 +373,12 @@
 			width: 32%;
 		}
 
-		.grid-item-width2 {
+		.grid-item-width-double {
 			width: 48%;
 			height: 48%;
 		}
 
-		.jx-grid-item.grid-item-width2-only{
+		.jx-grid-item.grid-item-width-double-only{
 			width: 48%;
 			height: 48%;
 		}

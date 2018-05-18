@@ -6,6 +6,10 @@ $( document ).ready(function() {
   siteHeader = $('div#header');
 });
 
+
+var titlebarVideo = $('video#titlebar-video');
+var titlebarContainer = $('div#titlebar-container');
+
 var page = window.document.documentElement;
 var pageSupportedTransitions = Modernizr.csstransitions;
 var pageScrollAmount = 0;
@@ -209,6 +213,8 @@ function onScrollSite()
   var position = siteHeader.position();
   var top = siteHeader.css('top');
 }
+
+
 
 // Handle Site Wide Resize Events
 $(window).resize(function() { onResizeSite(); });

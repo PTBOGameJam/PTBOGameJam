@@ -5,7 +5,7 @@ Chart.defaults.global.defaultFontFamily = 'Raleway';
 var chartAttendance = new Chart($("canvas#attendance-chart"), { 
     type: 'line', 
     data: {
-        labels: ["", "01", "02", "03"],
+        labels: ["", "01", "02", "03", "04"],
         datasets: [
         {
             label: "Attendees",
@@ -13,7 +13,7 @@ var chartAttendance = new Chart($("canvas#attendance-chart"), {
             lineTension: 0.1,         
             backgroundColor: "rgba(0,204,255,0.8)",
             borderColor: "rgba(0,204,255,0.4)",
-            data: [0,43,155,73],
+            data: [0,43,155,73,129],
             spanGaps: false,
         },
         {
@@ -22,7 +22,7 @@ var chartAttendance = new Chart($("canvas#attendance-chart"), {
             lineTension: 0.1,
             backgroundColor: "rgba(255,102,0,0.8)",
             borderColor: "rgba(255,102,0,0.4)",
-            data: [0,17, 80,60],
+            data: [0,17, 80,60,71],
             spanGaps: false,
         },
         {
@@ -32,7 +32,7 @@ var chartAttendance = new Chart($("canvas#attendance-chart"), {
             lineTension: 0.1,
             backgroundColor: "rgba(255,204,0,0.8)",
             borderColor: "rgba(255,204,0,0.4)",
-            data: [0,5, 41,20],
+            data: [0,5, 41,20, 16],
             spanGaps: false,
         },
         {
@@ -42,7 +42,7 @@ var chartAttendance = new Chart($("canvas#attendance-chart"), {
             lineTension: 0.1,
             backgroundColor: "rgba(102,102,102,0.8)",
             borderColor: "rgba(102,102,102,0.4)",
-            data: [0,27, 163,84],
+            data: [0,27, 163,84, 120],
             spanGaps: false,
         },
         {
@@ -52,7 +52,7 @@ var chartAttendance = new Chart($("canvas#attendance-chart"), {
             lineTension: 0.1,
             backgroundColor: "rgba(67,133,2,0.8)",
             borderColor: "rgba(67,133,2,0.4)",
-            data: [0,40, 73,25],
+            data: [0,40, 73,25,49],
             spanGaps: false,
         },
         
@@ -94,7 +94,7 @@ var chartAttendance = new Chart($("canvas#attendance-chart"), {
 var chartGames = new Chart($("canvas#games-chart"), { 
     type: 'line', 
     data: {
-        labels: ["", "01", "02", "03"],
+        labels: ["", "01", "02", "03", "04"],
         datasets: [
         {
             label: "Total",
@@ -102,7 +102,7 @@ var chartGames = new Chart($("canvas#games-chart"), {
             lineTension: 0.1,         
             backgroundColor: "rgba(0,204,255,0.8)",
             borderColor: "rgba(0,204,255,0.4)",
-            data: [0,11, 33, 21],
+            data: [0,11, 33, 21, 20],
             spanGaps: false,
         },
         {
@@ -111,7 +111,7 @@ var chartGames = new Chart($("canvas#games-chart"), {
             lineTension: 0.1,
             backgroundColor: "rgba(255,102,0,0.8)",
             borderColor: "rgba(255,102,0,0.4)",
-            data: [0,8, 15, 12],
+            data: [0,8, 15, 12, 7],
             spanGaps: false,
         },
         {
@@ -120,7 +120,7 @@ var chartGames = new Chart($("canvas#games-chart"), {
             lineTension: 0.1,
             backgroundColor: "rgba(255,204,0,0.8)",
             borderColor: "rgba(255,204,0,0.4)",
-            data: [0,3, 18,9],
+            data: [0,3, 18,9, 13],
             spanGaps: false,
         }]
     }, 
@@ -160,20 +160,20 @@ var chartGames = new Chart($("canvas#games-chart"), {
 var chartEngines = new Chart($("canvas#engine-chart"), { 
     type: 'pie', 
     data: {
-        labels: ["Unity", "Unreal", "Game Maker", "Scratch"],
+        labels: ["Unity", "Unreal", "Game Maker", "Scratch", "Other"],
         datasets: [{
-            data: [55, 5, 2, 3],
+            data: [70, 1, 2, 3, 2],
             backgroundColor: [
                 "#00bcd4",
                 "#dda209",
                 "#71b417",
-                "#586cdc"
+                "#FF6600"
             ],
             hoverBackgroundColor: [
                 "#00bcd4",
                 "#dda209",
                 "#71b417",
-                "#586cdc"
+                "#FF6600"
             ]
         }]
     },
@@ -202,6 +202,13 @@ var chartFunding = new Chart($("canvas#funding-chart"), {
         labels: ["Municipal Grants", "Provincial Grants", "Federal Grants", "Local Sponsorship", "Industry Sponsorship"],
         datasets: [
             {
+                label: "04",
+                backgroundColor: "rgba(255, 102, 0,0.2)",
+                borderColor: "rgba(255, 102, 0,1)",
+                data: [0, 0, 11, 39, 61]
+            },
+            {
+                hidden: true,
                 label: "03",
                 backgroundColor: "rgba(255,0,204,0.2)",
                 borderColor: "rgba(255,0,204,1)",
@@ -262,7 +269,7 @@ var chartAge = new Chart($("canvas#age-chart"), {
         ],
         datasets: [
         {
-            data: [6, 10, 35, 16,12,9,12],
+            data: [8, 8, 35, 16,15,9,9],
 
             backgroundColor: [
                 "rgba(0, 204, 255, .14)",

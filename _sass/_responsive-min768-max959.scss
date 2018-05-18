@@ -175,20 +175,6 @@ font-size: 27px !important;
 
 
 
-.jx-event-box-counter .jx-event-date {
-  height: 200px !important;
-  width: 200px ;
-}
-.jx-event-box-counter .jx-event-title-box {
-  width: 560px;
-  height: 290px;
-}
-.jx-event-box .jx-event-date .jx-event-day {
-  font-size: 95px;
-}
-.jx-event-box .jx-event-date .jx-event-month {
-  font-size: 45px;
-}
 
 .jx-event-title-box .jx-event-title {
   font-size: 60px;
@@ -199,17 +185,9 @@ font-size: 27px !important;
 .jx-event-title-box .jx-event-pretitle {
   font-size: 40px;
 }
-.jx-event-box-counter .jx-event-title-box {
-  width: 560px;
-  height: 210px;
-}
 
 .jx-countdown .counter-wrapper li {
   margin-top:15px;
-}
-
-.jx-event-box-counter .jx-event-date {
-  padding-top: 25px !important;
 }
 
 .jx-event-play {
@@ -228,25 +206,6 @@ font-size: 27px !important;
   font-size: 70px;
 }
 
-.jx-event-box-register .jx-event-date {
-    height: 390px !important;
-}
-
-.jx-event-box .jx-event-date {
-  height: 200px;
-  width: 200px;
-
-}
-
-.jx-event-box-register.jx-register-box-2 .jx-event-date {
-  width:560px;
-  height:130px !important;
-}
-
-.jx-event-box-register.jx-register-box-2 {
-    margin: auto 13% !important;
-}
-
 .jx-right-vertical-border .jx-date{
   display:none;
 }
@@ -254,17 +213,6 @@ font-size: 27px !important;
 .jx-right-vertical-border {
   right: 110px;
   border-left:none !important;
-}
-
-
-.jx-event-box-register .jx-event-register input {
-  float: left;
-  display: inline;
-}
-
-.jx-event-box-register .jx-event-register .jx-ticket-email {
-  float: left;
-  display: inline;
 }
 
 .jx-event-register .jx-ticket-type {
@@ -390,7 +338,7 @@ font-size: 27px !important;
 [19.0  Portfolio  ]
 ---------------------------------------------------------------*/
 
-.grid-item-width2 {
+.grid-item-width-double {
 width: 48.2% !important;
 height: 48.2%;
 }
@@ -399,7 +347,7 @@ height: 48.2%;
 width: 23.4%;
 }
 
-.jx-grid-item.grid-item-width2-only {
+.jx-grid-item.grid-item-width-double-only {
 width: 48%;
 height: 182px;
 }

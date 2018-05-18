@@ -136,7 +136,7 @@ a:hover {
 	background:$primary-color !important;
 }
 .jx-servicebox-1 .jx-service-item .service-title-border , .jx-event-schedule .image i , .jx-team-details , .grid-item ,
-.jx-newsletter .jx-form-wrapper button , .jx-single-point > a  , .jx-countdown .counter-wrapper li  , .jx-faq .jx-faq-head .jx-faq-title , .jx-contact-form input.jx-submit, .jx-menu .main-menu li:hover , .jx-main-slider .flex-direction-nav a  , .jx-menu .main-menu li a.mPS2id-highlight , .jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb span.current , .jx-image-container .jx-post-format , .jx-sidebar-widget .jx-right-pattern , .jx-blog-item .flex-control-paging li a.flex-active , .jx-page-search.wide .jx-form-wrapper button , .jx-ticket-form .jx-btn-default , .jx-price-table .jx-price-item , .jx-pagination span.current , #comment-submit , .jx-event-box-register .jx-event-register .jx-btn-default , .jx-testimonial-item .jx-testimonial-content .jx-name , .jx-summary-info , .jx-footersection-widget .jx-right-pattern , .jx-hr-title , .jx-servicebox-2 .jx-service-item .service-title-border
+.jx-newsletter .jx-form-wrapper button , .jx-single-point > a  , .jx-countdown .counter-wrapper li  , .jx-faq .jx-faq-head .jx-faq-title , .jx-contact-form input.jx-submit, .jx-menu .main-menu li:hover, .jx-menu .main-menu li a.mPS2id-highlight , .jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb span.current , .jx-image-container .jx-post-format , .jx-sidebar-widget .jx-right-pattern , .jx-blog-item .flex-control-paging li a.flex-active , .jx-page-search.wide .jx-form-wrapper button , .jx-ticket-form .jx-btn-default , .jx-price-table .jx-price-item , .jx-pagination span.current , #comment-submit, .jx-testimonial-item .jx-testimonial-content .jx-name , .jx-summary-info , .jx-footersection-widget .jx-right-pattern , .jx-hr-title , .jx-servicebox-2 .jx-service-item .service-title-border
 {
 	background:$primary-color !important;
 }
@@ -162,9 +162,6 @@ a:hover {
 /* Background RGBA Color
 /* ------------------------------------------------------------------------ */
 
-.jx-event-box .jx-event-date , .jx-event-play {
-	background: $primary-color-transparent !important;
-}
 .grid-item .jx-portfolio-hoverlayer  , .jx-media-center .jx-image-wrapper .jx-image-overlay , .jx-blog .jx-image-wrapper .jx-image-overlay , .jx-image-wrapper .jx-image-overlayer {
 	background: $primary-color-transparent !important;
 }

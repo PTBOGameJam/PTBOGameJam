@@ -169,31 +169,6 @@
     font-size: 12px !important;
   }
 
-  .jx-event-box .jx-event-date .jx-event-day {
-    font-size: 30px !important;
-  }
-
-  .jx-event-box .jx-event-date .jx-event-day span {
-    font-size: 20px !important;
-  }
-
-  .jx-event-box .jx-event-date .jx-event-month {
-    font-size: 16px !important;
-  }
-
-  .jx-event-box-register.jx-register-box-2 .jx-event-date .jx-event-day {
-    font-size: 20px !important;
-  }
-
-  .jx-event-box-register .jx-event-register {
-    display:none;
-  }
-
-  .jx-event-box-counter .jx-event-date {
-    height: 80px !important;
-    width: 80px !important;
-    padding-top: 10px !important;
-  }
 
   .jx-event-play i {
     width: 60px !important;
@@ -203,23 +178,8 @@
     border: 5px solid #FFF !important;
   }
 
-  .jx-event-box-register.jx-register-box-2 .jx-event-date {
-    width: 180px !important;
-    height: 40px !important;
-  }
-
-  .jx-event-box-register .jx-event-title-box {
-    height: 80px !important;
-  }
-
   .jx-event-title-box {
     width: 180px !important;
-    height: 80px !important;
-    padding:10px !important;
-  }
-
-  .jx-event-box .jx-event-date {
-    width: 80px !important;
     height: 80px !important;
     padding:10px !important;
   }
@@ -230,29 +190,8 @@
     padding-top: 10px !important;
   }
 
-  .jx-event-box-register .jx-event-date {
-    height: 80px !important;
-  }
-
   .jx-event-countdown {
     display:none !important;
-  }
-
-  .jx-event-box-counter .jx-event-title-box {
-    width: 180px !important;
-    height: 80px !important;
-  }
-
-  .jx-event-box.jx-event-box-register {
-    top: 150px !important;
-  }
-
-  .jx-right-vertical-border .jx-date .jx-slider-day {
-    font-size: 22px !important;
-  }
-
-  .jx-right-vertical-border .jx-date .jx-slider-month {
-    font-size: 18px !important;
   }
 
   .jx-right-vertical-border {
@@ -264,44 +203,13 @@
     display:none;
   }
 
-  .jx-main-slider .jx-parallax-fullwidth{
-
-    //height:300px !important
-  }
-
-
 /*---------------------------------------------------------------
   [8.0  Slider ]
 ---------------------------------------------------------------*/
 
-  .jx-slider-bottom-info {
+  .lander-info {
     display:none;
   }
-
-  .jx-main-slider .flexslider {
-    position:inherit !important;
-  }
-
-  .jx-event-box .jx-event-date {
-    padding: 15px 0px 0px 0px !important;
-  }
-
-
-  .jx-event-box-counter .jx-event-date {
-     padding-top: 15px !important;
-  }
-
-  .jx-main-slider .flex-direction-nav a::before {
-    font-size: 30px !important;
-  }
-
-  .jx-main-slider .flex-direction-nav a {
-    top: 50% !important;
-    width: 50px !important;
-    height: 50px !important;
-    padding-top: 10px !important;
-  }
-
 
 
 /*---------------------------------------------------------------
@@ -738,12 +646,12 @@
   width: 32%;
 }
 
-.grid-item-width2 {
+.grid-item-width-double {
   width: 47%;
   height: 47%;
 }
 
-.jx-grid-item.grid-item-width2-only{
+.jx-grid-item.grid-item-width-double-only{
   width: 47%;
   height: 47%;
 }

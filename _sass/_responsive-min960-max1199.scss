@@ -59,21 +59,6 @@
     font-size: 14px !important;
   }
 
-  .jx-event-box-counter .jx-event-date {
-    height: 200px;
-    width: 200px;
-  }
-  .jx-event-box-counter .jx-event-title-box {
-    width: 560px;
-    height: 290px;
-  }
-  .jx-event-box .jx-event-date .jx-event-day {
-    font-size: 95px;
-  }
-  .jx-event-box .jx-event-date .jx-event-month {
-    font-size: 45px;
-  }
-
   .jx-event-title-box .jx-event-title {
     font-size: 60px;
   }
@@ -83,17 +68,9 @@
   .jx-event-title-box .jx-event-pretitle {
     font-size: 40px;
   }
-  .jx-event-box-counter .jx-event-title-box {
-    width: 560px;
-    height: 200px;
-  }
 
   .jx-countdown .counter-wrapper li {
     margin-top:15px;
-  }
-
-  .jx-event-box-counter .jx-event-date {
-    padding-top: 25px !important;
   }
 
   .jx-event-play {
@@ -111,36 +88,6 @@
     line-height: 125px;
     font-size: 70px;  
     text-indent:0px
-  }
-
-  .jx-event-box-register .jx-event-date {
-      height: 390px !important;
-  }
-
-  .jx-event-box .jx-event-date {
-    height:200px;
-  }
-  .jx-event-box .jx-event-date {
-    width:200px;
-  }
-
-  .jx-event-box-register.jx-register-box-2 .jx-event-date {
-    width:560px;
-    height:130px !important;
-  }
-
-  .jx-event-box-register.jx-register-box-2 {
-      margin: auto 13% !important;
-  }
-
-  .jx-event-box-register .jx-event-register input {
-    float: left;
-    display: inline;
-  }
-
-  .jx-event-box-register .jx-event-register .jx-ticket-email {
-    float: left;
-    display: inline;
   }
 
   .jx-event-register .jx-ticket-type {
@@ -308,15 +255,15 @@
 ---------------------------------------------------------------*/
 
 
-.grid-item-width2 {
-  width: 38.6% !important;
-  height: 38.6%;
+.grid-item-width-double {
+  width: 37.2% !important;
+  height: 37.2%;
 }
 .jx-grid-item {
      width: 18%;
 }
 
-.jx-grid-item.grid-item-width2-only {
+.jx-grid-item.grid-item-width-double-only {
   height: 182px;
   width:38.7%;
 }

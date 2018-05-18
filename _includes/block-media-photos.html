@@ -22,7 +22,7 @@
                         <span><a href="http://reapazor.com">Matthew Davey</a><br />Founder &amp; Organizer</span>
                     </div>
                 </div>
-                {% for image in site.data.03-gallery %}
+                {% for image in site.data.gallery-03 %}
                 <div class="jx-grid-item">
                     <div class="jx-image jx-image-wrapper"><img width="400" src="{{ image.img | prepend: site.baseurl }}" alt="{{ image.alt }}" hdpi="true"/>
                       <a href="{{ image.url | prepend: site.baseurl }}" title="{{ image.title }}">
@@ -32,7 +32,7 @@
                     </div>
                 </div>
                 {% endfor %}
-                {% for image in site.data.02-gallery %}
+                {% for image in site.data.gallery-02 %}
                 <div class="jx-grid-item">
                     <div class="jx-image jx-image-wrapper"><img width="400" src="{{ image.img | prepend: site.baseurl }}" alt="{{ image.alt }}" hdpi="true"/>
                       <a href="{{ image.url | prepend: site.baseurl }}" title="{{ image.title }}">
@@ -42,7 +42,7 @@
                     </div>
                 </div>
                 {% endfor %}
-                {% for image in site.data.01-gallery %}
+                {% for image in site.data.gallery-01 %}
                 <div class="jx-grid-item">
                     <div class="jx-image jx-image-wrapper"><img width="400" src="{{ image.img | prepend: site.baseurl }}" alt="{{ image.alt }}" hdpi="true"/>
                       <a href="{{ image.url | prepend: site.baseurl }}" title="{{ image.title }}">

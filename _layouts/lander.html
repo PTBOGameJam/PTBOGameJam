@@ -6,120 +6,16 @@ layout: compress
 {% include head.html %}
   <body>
 {% include header.html %}
-    <div id="home" class="jx-main-slider">
-      <div class="flexslider">
-        <ul class="slides">
-          {% for slide in site.data.slides %}
-          {% if slide.video %}
-          <li id="{{slide.name}}" class="jx-parallax-fullwidth">
-            <div class="lander-video-container">
-              <!--[if lt IE 9]> <script> document.createElement('video'); </script> <![endif]-->
-              <video id="lander-video-{{slide.name}}"playsinline autoplay muted loop class="lander-video" poster="{{ slide.fallback }}"> 
-                <source src="{{slide.video}}" type="video/mp4">
-              </video>
-            </div>
-          {% elsif slide.image %}
-          <li id="{{slide.name}}" class="jx-parallax-fullwidth" style="background-image:url('{{slide.image}}');">
-          {% endif %}
-          {% if slide.type == "empty" %}
-
-          {% else %}
-            <div class="jx-event-slide">
-              <div class="jx-slider-content">
-                <div class="container">
-                  <a href="{{slide.link}}">
-
-                    {% if slide.type == "countdown" %}
-                    <div class="jx-event-box video-event-box">
-                      <div class="jx-event-date">
-                        <div class="jx-event-day">{{slide.day}}</div>
-                        <div class="jx-event-month jx-uppercase">{{slide.month}}</div>
-                      </div>
-                      <div class="jx-event-title-box">
-                        <div class="jx-event-pretitle">{{slide.pretitle}}</div>
-                        <div class="jx-event-title">{{slide.title}}</div>
-                        <div class="jx-event-countdown">
-                          <div class="jx-countdown">
-                            <div class="dsb-theme-wrapper countdown" data-countdown="{{ site.data.latest.countdown }}">
-                              <div class="dsb-theme">
-                                <div class="counter-wrapper">
-                                  <ul>
-                                    <li>
-                                      <div class="days count">00</div>
-                                      <div class="textDays count-text">Days</div>
-                                    </li>
-                                    <li>
-                                      <div class="hours count">00</div>
-                                      <div class="textHours count-text">Hours</div>
-                                    </li>
-                                    <li>
-                                      <div class="minutes count">00</div>
-                                      <div class="textmins count-text">Mins</div>
-                                    </li>
-                                    <li>
-                                      <div class="seconds count">00</div>
-                                      <div class="textSecs count-text">Secs</div>
-                                    </li>
-                                  </ul>
-                                  <div class="jC-clear"></div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-
-                    {% else %}
-                    <div class="jx-event-box video-event-box {% if slide.video %}{% else %}event-box-no-reset{% endif %}">
-                        <div class="jx-event-play">{% if slide.icon %}<i class="icon-{{slide.icon}}"></i>{% endif %}</div>
-                        <div class="jx-event-title-box">
-                          <div class="jx-event-pretitle">{{slide.pretitle}}</div>
-                          <div class="jx-event-title">{{slide.title}}</div>
-                          {% if slide.location %}<div class="jx-event-location">{{slide.location}}</div>{% endif %}
-                        </div>
-                    </div>
-                    {% endif %}
-
-                  </a>
-                </div>
-              </div>
-            </div>
-            {% endif %}
-          </li>
-          {% endfor %}
-
-
-          {% for post in site.posts %}
-            {% if post.slide %}
-          <li id="{{post.code}}" class="jx-parallax-fullwidth" style="background-image:url('{{post.slide-image}}');">
-            <div class="jx-event-slide">
-              <div class="jx-slider-content">
-                <div class="container">
-                  <a href="{{ post.url|| prepend: site.baseurl }}">
-                    <div class="jx-event-box video-event-box event-box-no-reset">
-                        <div class="jx-event-play"><i class="icon-{{post.slide-icon}}"></i></div>
-                        <div class="jx-event-title-box">
-                          <div class="jx-event-pretitle">{{post.slide-pretitle}}</div>
-                          <div class="jx-event-title">{{post.slide-title}}</div>
-                         <div class="jx-event-location">{{ post.date | date: "%B %-d, %Y" }}</div>
-                        </div>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </li>
-            {% endif %}
-          {% endfor %}
-
-        </ul>
-
-        <a href="{{ site.data.latest.link | prepend: site.baseurl }}" title="{{ site.data.latest.title }}">
-          <div class="jx-slider-bottom-info">
+    <div id="home">
+      <div class="full-video-container jx-parallax-fullwidth">
+          <a href="{{ site.data.latest.link | prepend: site.baseurl }}" title="{{ site.data.latest.title }}">
+          <video id="titlebar-video" playsinline="" autoplay="" muted="" loop="" poster="/content/img/slides/slide-blank-04.jpg">
+            <source src="https://player.vimeo.com/external/230401383.sd.mp4?s=b4f5e7aa2f93865bb33f71f770b862f5ab91da56&profile_id=165" type="video/mp4">
+          </video>
+          <div class="lander-info">
             <div class="container">
-              <div class="lander-message"><a href="https://itch.io/jam/ptbogamejam03/entries"><strong>While we don't have anything to say about 04 quite yet, go play the PTBO Game Jam 03 Games!</strong></a></div>
-              <!--<ul>
+              <!--<div class="lander-message"><a href="https://itch.io/jam/ptbogamejam03/entries"><strong>While we don't have anything to say about 04 quite yet, go play the PTBO Game Jam 03 Games!</strong></a></div>-->
+              <ul>
                 <li class="three columns">
                   <div class="jx-info-icon"><i class="icon-calendar"></i></div>
                   <div class="jx-info-content">
@@ -138,7 +34,8 @@ layout: compress
                   <div class="jx-info-icon"><i class="icon-ticket"></i></div>
                   <div class="jx-info-content">
                     <div class="info-title">TICKETS</div>
-                    <div class="info-description">{{site.data.latest.spots}} Spots</div>
+                    <div class="info-description">Free!</div>
+                    <!-- <div class="info-description">{{site.data.latest.spots}} Spots</div> -->
                   </div>
                 </li>
 
@@ -146,12 +43,12 @@ layout: compress
                   <div class="jx-info-icon"><i class="icon-thumbs-up"></i></div>
                   <div class="jx-info-content">
                     <div class="info-title">SPONSORS</div>
-                    <div class="info-description">{{ site.data.latest-sponsors | size }} Supporters</div>
-                    <div class="info-description"><a class="lander-link" href="mailto:hello@ptbogamejam.com">Contact Us!</a></div>
+                    <!-- <div class="info-description">{{ site.data.latest-sponsors | size }} Supporters</div> -->
+                    <div class="info-description"><a class="lander-link" href="mailto:hello@ptbogamejam.com">Contact Us</a></div>
                   </div>
                 </li>
               </ul>
-            -->
+            
             </div>
           </div>
         </a>

@@ -1,14 +1,16 @@
 <div id="home" class="jx-page-titlebar">
-  <div class="page-titlebar-bg parallax-no {% if page.background-style %}{{ page.background-style }}{% endif %}" style="{% if page.background-height %}min-height: {{ page.background-height }} !important;{% endif %}background:url(
-  {% if page.titlebar %}{{ "/content/img/titlebars/" | prepend: site.baseurl }}{{page.titlebar}}{% else %}{{ "/content/img/titlebars/" | prepend: site.baseurl }}{{site.titlebar}}{% endif %}); background-position: {% if page.background-position %}{{ page.background-position }}{% else %}bottom{% endif %}; background-repeat: no-repeat; background-size: cover;" hdpi="true">{% if page.titlebar-overlay %}<div class="hidden-spacer"></div><img src="{{ page.titlebar-overlay | prepend: site.baseurl }}" />{% endif %}</div>
+  <div class="page-titlebar-bg parallax-no {% if page.titlebar-video %}full-video-container{% endif %} {% if page.background-style %}{{ page.background-style }}{% endif %}" style="{% if page.background-height %}min-height: {{ page.background-height }} !important;{% endif %}background:url({% if page.titlebar %}{{ "/content/img/titlebars/" | prepend: site.baseurl }}{{page.titlebar}}{% else %}{{ "/content/img/titlebars/" | prepend: site.baseurl }}{{site.titlebar}}{% endif %}); background-position: {% if page.background-position %}{{ page.background-position }}{% else %}bottom{% endif %}; background-repeat: no-repeat; background-size: cover;" hdpi="true">
+    {% if page.titlebar-video %}<video id="titlebar-video" playsinline="" autoplay="" muted="" loop="" poster="{{ "/content/img/titlebars/" | prepend: site.baseurl }}{{page.titlebar}}"><source src="{{ page.titlebar-video }}" type="video/mp4"></video>{% endif %}
+    {% if page.titlebar-overlay %}<div class="hidden-spacer"></div><img src="{{ page.titlebar-overlay | prepend: site.baseurl }}" />{% endif %}
+  </div>
+  {% if page.hide-breadcrumb %}
+  {% else %}
   <div class="container">
     <div class="jx-page-titlebar-items">
       <div class="sixteen columns left">
-        {% if page.hide-breadcrumb %}
-        {% else %}
-        {% include breadcrumb.html %}
-        {% endif %}
+        {% include breadcrumb.html %}  
       </div>
     </div>
   </div>
+  {% endif %}
 </div>

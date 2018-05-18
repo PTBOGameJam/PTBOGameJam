@@ -2,11 +2,11 @@
   picture:    "/content/img/team/dave-bowen.jpg"
   position:   "Operations"
   twitter:    "http://twitter.com/Canadave41"
-  status:     true
+  status:     false
 
 - name:       "Arin Blue"
   picture:    "/content/img/team/03/arin-blue.jpg"
-  position:   "Operations"
+  position:   "Educational Advisor"
   linkedin:   "https://www.linkedin.com/in/arin-blue-7595b58b/"
   twitter:    "https://twitter.com/YorBoyBlue"
   webpage:    "http://triosdevelopers.com/A.Blue/"
