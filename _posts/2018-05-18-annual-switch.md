@@ -30,3 +30,17 @@ Resources like our **[website](http://ptbogamejam.com/)**, **[jam archives](http
 If you or your organization are interested in collaborating with **PTBO Game Jam** don’t hesitate to **[contact us](http://ptbogamejam.com/contact/)**. 
 
 For now, please stay tuned and keep being awesome!
+
+## PTBO Game Jam History
+
+<a href="http://ptbogamejam.com/files/events/03/PTBOGameJam03-MD.png"><img class="release-image" hdpi="true" src="/content/img/event/03/release/MD.jpg"></a>  
+**Matthew Davey**   
+Founder &amp; Organizer
+  
+With the goal of fostering a local game development community to the benefit of future generations of game developers, **Matthew Davey**, the founder of Peterborough-based game development studio [dotBunny](http://dotbunny.com), organized and hosted the inaugural not-for-profit **PTBO Game Jam 01** in August 2016 at the Holiday Inn Peterborough-Waterfront. That event saw 11 games created.
+  
+Based on the response to, and success of, that initial foray, follow-up events continue to be held with continual growth and reach.
+  
+With the organization of **PTBO Game Jam 04**, a team of industry professionals continues to work together towards the continued success of the **PTBO Game Jam** to the benefit of the industry as a whole as well as participants. 
+  
+It’s estimated that more than 19 million Canadians identify themselves as "gamers," participating, at some level, in an industry which is expected to grow to a startling $100 billion market value come 2019.
