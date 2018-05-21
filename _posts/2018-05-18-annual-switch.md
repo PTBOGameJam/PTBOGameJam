@@ -15,6 +15,8 @@ _Peterborough, Ontario - May 18, 2018_ -  Hi everyone! It’s announcement time 
 
 **PTBO Game Jam** is officially now an **annual** event. This means **PTBO Game Jam 05** will be taking place in **October 2018**, and that **no physical jam will be taking place this summer**.
 
+We’ve been seeing such great growth that we’re having trouble finding a venue that can provide the services we need.
+
 Resources like our **[website](http://ptbogamejam.com/)**, **[jam archives](http://ptbogamejam.com/archive/)**, **[community Discord server](http://discord.me/ptbogamejam)**, and **[monthly meetup](https://www.meetup.com/PTBOGameDev/)** will always be available.
 
 **As always, we want to your your thoughts and input**. You can contact us directly through the means available on our **[contact page](http://ptbogamejam.com/contact/)** or drop directly into the **[Discord server](http://discord.me/ptbogamejam)** (it’s free, fast, and a great way to connect with your fellow jammers) and speak your mind!
