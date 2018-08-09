@@ -6,17 +6,17 @@ permalink: /media/
 redirect_from: "/press"
 redirect_from: "/press/"
 ---
-  <div id="section" class="jx-container jx-padding container-no-margin background-001">
+  <div id="section" class="gj-container gj-padding container-no-margin background-001">
     <div class="container">
         <div class="eight columns">
-          <div class="jx-section-title title-light jx-dark">
-            <div class="jx-title jx-uppercase">Point Of <span>Contact</span></div>
-            <div class="jx-hr-title"></div>
+          <div class="gj-section-title title-light gj-dark">
+            <div class="gj-title gj-uppercase">Point Of <span>Contact</span></div>
+            <div class="gj-hr-title"></div>
           </div>
           <div class="section-content">
               <p>We try hard to get information about the event out through as many channels as possible. We are still but a small team with a big goal, so sometimes wires will get crossed. To streamline our process and help make sure information finds itself to the right person, we invite all media inquiries to be sent directly to <a href="mailto:{{site.press_email}}">{{ site.press_name }}</a>. Responses to media inquiries will be prioritized over general inquiries; our typical response time is within 12 hours.</p>
               <p>If you are doing anything with our branding, the PTBO Game Jam, we would strongly suggest that you have a peek at our <a href="{{ site.data.links-relative.brand | prepend: site.baseurl }}" title="Brand Guidelines">Brand Guidelines</a> for specific assets and terminology.</p>
-              <p><a href="{{ site.data.links-relative.brand | prepend: site.baseurl }}" title="Brand Guidelines" class="jx-btn-default">Brand Guidelines</a></p>
+              <p><a href="{{ site.data.links-relative.brand | prepend: site.baseurl }}" title="Brand Guidelines" class="gj-btn-default">Brand Guidelines</a></p>
           </div>
         </div>
         <div class="eight columns">
@@ -25,26 +25,26 @@ redirect_from: "/press/"
     </div>
   </div>
 
-  <div id="releases" class="jx-container jx-padding jx-grey-bg">
+  <div id="releases" class="gj-container gj-padding gj-grey-bg">
         	<div class="container">
-                <div class="jx-section-title-1">
-                    <div class="jx-pre-title jx-short-border">
-                        <div class="jx-title-icon"><i class="icon-docs"></i></div>
+                <div class="gj-section-title-1">
+                    <div class="gj-pre-title gj-short-border">
+                        <div class="gj-title-icon"><i class="icon-docs"></i></div>
                     </div>
-                    <div class="jx-title jx-uppercase">Media Releases</div>
+                    <div class="gj-title gj-uppercase">Media Releases</div>
                 </div>
 
                 <div class="row"></div>
                 <div class="row"></div>
-                <div class="jx-media-center">
+                <div class="gj-media-center">
                   {% for post in site.categories.media-releases %}
                     <div class="one-third columns">
                       <a href="{{ post.url | prepend: site.baseurl }}">
-                        <div class="image jx-image-wrapper">
+                        <div class="image gj-image-wrapper">
                           <img src="{{ "/content/img/post/" | prepend: site.baseurl }}{{ post.code }}.jpg" srcset="{{ "/content/img/post/" | prepend: site.baseurl }}{{ post.code }}.jpg 1x, {{ "/content/img/post/" | prepend: site.baseurl }}{{ post.code }}@2x.jpg 2x" alt="{{ post.title }}">
-                          <div class="jx-image-overlay"></div>
-                            <div class="jx-image-hover">
-                              <a href="{{ post.url | prepend: site.baseurl }}" class="jx-blog-more"><i class="icon-doc"></i></a>
+                          <div class="gj-image-overlay"></div>
+                            <div class="gj-image-hover">
+                              <a href="{{ post.url | prepend: site.baseurl }}" class="gj-blog-more"><i class="icon-doc"></i></a>
                             </div>
                             <!-- Image Hover -->
                         </div>

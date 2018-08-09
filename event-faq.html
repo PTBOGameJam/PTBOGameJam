@@ -8,21 +8,21 @@ highlight: event
 permalink: /event/faq/
 ---
 
-<div id="event-faq" class="jx-container jx-padding jx-light background-002">
+<div id="event-faq" class="gj-container gj-padding gj-light background-002">
   <div class="container responsive-full">
-    <div class="jx-section-title-1">
-      <div class="jx-pre-title jx-short-border">
-        <div class="jx-title-border jx-title-border-light left"></div>
-        <div class="jx-title-icon-light"><i class="icon-slack icon-3x"></i></div>
-        <div class="jx-title-border jx-title-border-light right"></div>
+    <div class="gj-section-title-1">
+      <div class="gj-pre-title gj-short-border">
+        <div class="gj-title-border gj-title-border-light left"></div>
+        <div class="gj-title-icon-light"><i class="icon-slack icon-3x"></i></div>
+        <div class="gj-title-border gj-title-border-light right"></div>
       </div>
-      <div class="jx-title jx-title-light jx-uppercase">FAQ</div>
-      <div class="jx-subtitle"><p>There is a lot of information to digest about the event, and we often get asked the same thing. Here’s our list of some of the most commonly asked questions in an attempt to help us maintain our sanity.</p></div>
+      <div class="gj-title gj-title-light gj-uppercase">FAQ</div>
+      <div class="gj-subtitle"><p>There is a lot of information to digest about the event, and we often get asked the same thing. Here’s our list of some of the most commonly asked questions in an attempt to help us maintain our sanity.</p></div>
 		</div>
-    <div class="jx-accordion accordion">
-      <div id="accordion-faq" class="none jx-toggle" data-accordion-group="">
+    <div class="gj-accordion accordion">
+      <div id="accordion-faq" class="none gj-toggle" data-accordion-group="">
           {% for item in site.data.faq %}
-          <div id="faq-{{ forloop.index  }}" data-accordion="" class="jx-accordion-item head engine all {% if forloop.index == 1 %}open{% endif %}">
+          <div id="faq-{{ forloop.index  }}" data-accordion="" class="gj-accordion-item head engine all {% if forloop.index == 1 %}open{% endif %}">
   					<div class="title" data-control="faq-{{ forloop.index  }}"><i class="faq-item-block">{{ forloop.index }}</i>{{ item.title}}</div>
   					<div style="transition: max-height 300ms ease;" data-content="">
   					       <div class="description">{{ item.description}}</div>

@@ -2,33 +2,33 @@
 layout: default
 ---
   <div class="container with-sidebar">
-    <div class="posts sixteen columns jx-padding alpha jx-blog">
-      <div id="post-{{ page.title | slugify }}" class="jx-blog post-{{ page.title | slugify }} post type-post status-publish format-video has-post-thumbnail hentry">
-        <div class="jx-blog-item">
-          <div class="jx-blog-image">
-              <div class="image jx-image-wrapper">
+    <div class="posts sixteen columns gj-padding alpha gj-blog">
+      <div id="post-{{ page.title | slugify }}" class="gj-blog post-{{ page.title | slugify }} post type-post status-publish format-video has-post-thumbnail hentry">
+        <div class="gj-blog-item">
+          <div class="gj-blog-image">
+              <div class="image gj-image-wrapper">
               {% if page.screenshots[0] %}
                 <img alt="{{ item.title }}" width="0" height="0" src="{{ page.screenshots[0][1] | prepend: site.baseurl }}" class="attachment-blog size-blog " draggable="false" hdpi="false">
                 <a href="{{ page.screenshots[0][1] | prepend: site.baseurl }}" data-rel="prettyPhoto[game]">
-                  <div class="jx-image-overlayer"></div>
-                  <div class="jx-image-hover"><i class="icon-zoom-in"></i></div>
+                  <div class="gj-image-overlayer"></div>
+                  <div class="gj-image-hover"><i class="icon-zoom-in"></i></div>
                 </a>
               {% else %}
                 <img alt="{{ item.title }}" width="0" height="0" src="{{ "/content/img/event/game-template.jpg" | prepend: site.baseurl }}" class="attachment-blog size-blog " draggable="false" hdpi="false">
               {% endif %}
               </div>
           </div>
-          <div class="jx-blog-content clearfix">
+          <div class="gj-blog-content clearfix">
             <a href="{{ page.link }}" title="{{page.title}}">
-              <div class="jx-blog-head">
-                <div class="jx-post-format"><i class="icon-gamepad"></i></div>
-                <div class="jx-blog-meta">
-                  <div class="jx-event-date"><a class="black" href="{{ site.data.links-relative.archive | prepend: site.baseurl }}{{page.event}}">PTBO Game Jam {{ page.event }}</a></div>
+              <div class="gj-blog-head">
+                <div class="gj-post-format"><i class="icon-gamepad"></i></div>
+                <div class="gj-blog-meta">
+                  <div class="gj-event-date"><a class="black" href="{{ site.data.links-relative.archive | prepend: site.baseurl }}{{page.event}}">PTBO Game Jam {{ page.event }}</a></div>
                 </div>
                 <div class="title"><a href="{{ page.link }}">{{ page.title }}</a></div>
               </div>
             </a>
-            <div class="jx-blog-metabox jx-single">
+            <div class="gj-blog-metabox gj-single">
               <span class="meta_categories"><i class="icon-link"></i>
                 <a href="{{ page.link }}" title="{{page.title}}">{{ page.link }}</a>
                 {% if page.status %}
@@ -39,24 +39,24 @@ layout: default
             <article>
             {% if page.screenshots and page.screenshots.size > 1 %}
               {% for screenshot in page.screenshots offset: 1 %}
-              <div class="jx-grid-item">
-                <div class="jx-image jx-image-wrapper">
+              <div class="gj-grid-item">
+                <div class="gj-image gj-image-wrapper">
                   <img src="{{ screenshot[0] | prepend: site.baseurl }}" />
                   <a href="{{ screenshot[1] | prepend: site.baseurl }}" data-rel="prettyPhoto[game]">
-                    <div class="jx-image-overlayer"></div>
-                    <div class="jx-image-hover"><i class="icon-zoom-in"></i></div>
+                    <div class="gj-image-overlayer"></div>
+                    <div class="gj-image-hover"><i class="icon-zoom-in"></i></div>
                   </a>
                 </div>
               </div>{% endfor %}
             {% endif %}
             {% if page.teamshots %}
               {% for teamshot in page.teamshots %}
-              <div class="jx-grid-item">
-                <div class="jx-image jx-image-wrapper">
+              <div class="gj-grid-item">
+                <div class="gj-image gj-image-wrapper">
                   <img src="{{ teamshot[0] | prepend: site.baseurl }}" />
                   <a href="{{ teamshot[1] | prepend: site.baseurl }}" data-rel="prettyPhoto[game]">
-                    <div class="jx-image-overlayer"></div>
-                    <div class="jx-image-hover"><i class="icon-zoom-in"></i></div>
+                    <div class="gj-image-overlayer"></div>
+                    <div class="gj-image-hover"><i class="icon-zoom-in"></i></div>
                   </a>
                 </div>
               </div>{% endfor %}
@@ -87,7 +87,7 @@ layout: default
             {% endif %}
             </article>
             <div class="archive-buttons">
-              <a class="jx-btn-default" href="{{page.link}}">Play Now</a>
+              <a class="gj-btn-default" href="{{page.link}}">Play Now</a>
             </div>
           </div>
         </div>

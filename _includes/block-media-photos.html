@@ -1,18 +1,18 @@
-<div id='gallery' class="jx-container container-no-margin jx-padding jx-black-bg">
+<div id='gallery' class="gj-container container-no-margin gj-padding gj-black-bg">
 
             <!-- Background Image -->
 
             <!-- Background Icon -->
             <div class="container ">
-                <div class="jx-section-title-1 jx-dark">
+                <div class="gj-section-title-1 gj-dark">
 
-                    <div class="jx-pre-title jx-short-border">
-                    <!-- <div class="jx-title-border left"></div> -->
-                    <div class="jx-title-icon"><i class="icon-picture color-white"></i></div>
-                    <!-- <div class="jx-title-border right"></div> -->
+                    <div class="gj-pre-title gj-short-border">
+                    <!-- <div class="gj-title-border left"></div> -->
+                    <div class="gj-title-icon"><i class="icon-picture color-white"></i></div>
+                    <!-- <div class="gj-title-border right"></div> -->
                     </div>
-                    <div class="jx-title jx-uppercase">Stock Photos</div>
-                    <div class="jx-subtitle"><p>Below is a selection of photos for release from our past and present events that can be used by media and its reproductions. Please note that you are required to use the full-sized watermarked versions available from the click through link.</p></div>
+                    <div class="gj-title gj-uppercase">Stock Photos</div>
+                    <div class="gj-subtitle"><p>Below is a selection of photos for release from our past and present events that can be used by media and its reproductions. Please note that you are required to use the full-sized watermarked versions available from the click through link.</p></div>
                     <!-- Section Title -->
 
                 </div>
@@ -23,31 +23,31 @@
                     </div>
                 </div>
                 {% for image in site.data.gallery-03 %}
-                <div class="jx-grid-item">
-                    <div class="jx-image jx-image-wrapper"><img width="400" src="{{ image.img | prepend: site.baseurl }}" alt="{{ image.alt }}" hdpi="true"/>
+                <div class="gj-grid-item">
+                    <div class="gj-image gj-image-wrapper"><img width="400" src="{{ image.img | prepend: site.baseurl }}" alt="{{ image.alt }}" hdpi="true"/>
                       <a href="{{ image.url | prepend: site.baseurl }}" title="{{ image.title }}">
-                        <div class="jx-image-overlayer"></div>
-                        <div class="jx-image-hover"><i class="icon-link"></i></div>
+                        <div class="gj-image-overlayer"></div>
+                        <div class="gj-image-hover"><i class="icon-link"></i></div>
                       </a>
                     </div>
                 </div>
                 {% endfor %}
                 {% for image in site.data.gallery-02 %}
-                <div class="jx-grid-item">
-                    <div class="jx-image jx-image-wrapper"><img width="400" src="{{ image.img | prepend: site.baseurl }}" alt="{{ image.alt }}" hdpi="true"/>
+                <div class="gj-grid-item">
+                    <div class="gj-image gj-image-wrapper"><img width="400" src="{{ image.img | prepend: site.baseurl }}" alt="{{ image.alt }}" hdpi="true"/>
                       <a href="{{ image.url | prepend: site.baseurl }}" title="{{ image.title }}">
-                        <div class="jx-image-overlayer"></div>
-                        <div class="jx-image-hover"><i class="icon-link"></i></div>
+                        <div class="gj-image-overlayer"></div>
+                        <div class="gj-image-hover"><i class="icon-link"></i></div>
                       </a>
                     </div>
                 </div>
                 {% endfor %}
                 {% for image in site.data.gallery-01 %}
-                <div class="jx-grid-item">
-                    <div class="jx-image jx-image-wrapper"><img width="400" src="{{ image.img | prepend: site.baseurl }}" alt="{{ image.alt }}" hdpi="true"/>
+                <div class="gj-grid-item">
+                    <div class="gj-image gj-image-wrapper"><img width="400" src="{{ image.img | prepend: site.baseurl }}" alt="{{ image.alt }}" hdpi="true"/>
                       <a href="{{ image.url | prepend: site.baseurl }}" title="{{ image.title }}">
-                        <div class="jx-image-overlayer"></div>
-                        <div class="jx-image-hover"><i class="icon-link"></i></div>
+                        <div class="gj-image-overlayer"></div>
+                        <div class="gj-image-hover"><i class="icon-link"></i></div>
                       </a>
                     </div>
                 </div>

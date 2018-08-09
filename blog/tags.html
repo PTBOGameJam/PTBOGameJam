@@ -6,16 +6,16 @@ titlebar: title-009.jpg
 permalink: /blog/tags/
 ---
 {% assign sortedtags = site.tags | sort %}
-<div id="tags" class="jx-container jx-padding jx-light">
+<div id="tags" class="gj-container gj-padding gj-light">
   <div class="container">
-    <div class="jx-section-title-1">
-      <div class="jx-pre-title jx-short-border">
-        <div class="jx-title-border jx-title-border-light left"></div>
-        <div class="jx-title-icon-light"><i class="icon-tags icon-3x"></i></div>
-        <div class="jx-title-border jx-title-border-light right"></div>
+    <div class="gj-section-title-1">
+      <div class="gj-pre-title gj-short-border">
+        <div class="gj-title-border gj-title-border-light left"></div>
+        <div class="gj-title-icon-light"><i class="icon-tags icon-3x"></i></div>
+        <div class="gj-title-border gj-title-border-light right"></div>
       </div>
-      <div class="jx-title jx-title-light jx-uppercase">POST TAG LIST</div>
-      <div class="jx-subtitle"><p>While it would be nice to have individual pages listing the contents of every single tag, GitHub Pages currently doesn't make this an easy task without a lot of manual work. We decided to just make a pretty list with anchors to navigate; a throwback to the old pre CSS days of web design and development. Are we ever glad that we are game developers right now.</p></div>
+      <div class="gj-title gj-title-light gj-uppercase">POST TAG LIST</div>
+      <div class="gj-subtitle"><p>While it would be nice to have individual pages listing the contents of every single tag, GitHub Pages currently doesn't make this an easy task without a lot of manual work. We decided to just make a pretty list with anchors to navigate; a throwback to the old pre CSS days of web design and development. Are we ever glad that we are game developers right now.</p></div>
       <div class="tagcloud">
         {% for tag in sortedtags %}
         <a href="{{ site.data.links-relative.tags | prepend: site.baseurl }}#{{ tag[0] | slugify }}" class="tag-link-{{ forloop.index }}" title='{{ tag[0] }}'>{{ tag[0] }}</a>
@@ -24,14 +24,14 @@ permalink: /blog/tags/
     </div>
   </div>
 </div>
-<div id="tags-actual" class="jx-container jx-padding jx-light background-002">
+<div id="tags-actual" class="gj-container gj-padding gj-light background-002">
   <div class="container">
     {% for tag in sortedtags %}
-      <div id="{{ tag[0] | slugify }}" class="jx-sidebar-widget tags-list-item">
+      <div id="{{ tag[0] | slugify }}" class="gj-sidebar-widget tags-list-item">
         <div class="widget widget_recent_entries">
           <div class="sub">
             <h4>{{ tag[0] }}</h4>
-            <div class="jx-right-pattern"></div>
+            <div class="gj-right-pattern"></div>
           </div>
           <ul>
             {% for post in tag[1] %}

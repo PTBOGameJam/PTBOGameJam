@@ -4,7 +4,7 @@
 		[1.0 Footer ]
 	---------------------------------------------------------------*/
 
-	.jx-footer-social li i {
+	.gj-footer-social li i {
 		width: 45px !important;
 		height: 45px !important;
 		line-height: 45px !important;
@@ -18,15 +18,15 @@
 	  font-size: 26px;
 	  margin-right: 20px;
 	}
-	.jx-accordion .description{
+	.gj-accordion .description{
 	  margin-left: 20px;
 	  padding-left: 42px;
 	}
-	.jx-footer-social li {
+	.gj-footer-social li {
 		margin-right: 2px !important;
 	}
 
-	.jx-footer-social {
+	.gj-footer-social {
 	    padding: 30px 0px 0px !important;
 	}
 
@@ -36,7 +36,7 @@
 		[2.0 Services ]
 	---------------------------------------------------------------*/
 
-		.jx-servicebox-1 .jx-service-item {
+		.gj-servicebox-1 .gj-service-item {
 			padding-bottom:20px;
 			margin-bottom:20px;
 		}
@@ -48,7 +48,7 @@
 		[2.0 Services ]
 	---------------------------------------------------------------*/
 
-		.jx-servicebox-1 .jx-service-item .service-description p {
+		.gj-servicebox-1 .gj-service-item .service-description p {
 			padding: 0px 0px;
 		}
 
@@ -60,7 +60,7 @@
 	---------------------------------------------------------------*/
 
 
-		.jx-media-center .one-third.columns {
+		.gj-media-center .one-third.columns {
 			margin-bottom: 40px;
 		}
 
@@ -70,22 +70,22 @@
 
 
 
-		 .jx-team img {
+		 .gj-team img {
 			width:100%;
 		 }
 
-		 .jx-team .jx-team-item {
+		 .gj-team .gj-team-item {
 		 	padding-bottom: 0;
 			width: 100%;
 			margin-right: 8px;
 		 }
 
 
-		.jx-team-item.jx-team-box-content {
+		.gj-team-item.gj-team-box-content {
 			width: 100%;
 		}
 
-		.jx-team-item {
+		.gj-team-item {
 			height: auto;
 			width: 100%;
 		}
@@ -94,20 +94,20 @@
 		[5.0  Countup ]
 	---------------------------------------------------------------*/
 
-		.jx-countup .count-item {
+		.gj-countup .count-item {
 			padding-bottom:20px;
 			margin-bottom:20px;
 		}
 
-		.jx-countup .count-item .count-text {
+		.gj-countup .count-item .count-text {
 			font-size: 20px;
 		}
 
-		.jx-countup .count-item .count-number {
+		.gj-countup .count-item .count-number {
 			font-size: 40px;
 		}
 
-		.jx-countup .four.columns {
+		.gj-countup .four.columns {
 			width: 360px;
 		}
 
@@ -120,11 +120,11 @@
 	---------------------------------------------------------------*/
 
 
-		.jx-section-title-1 .jx-title {
+		.gj-section-title-1 .gj-title {
 		    font-size: 30px !important;
 		}
 
-		.jx-section-title-1 .jx-title-border {
+		.gj-section-title-1 .gj-title-border {
 			width: 180px;
 		}
 
@@ -133,50 +133,50 @@
 		[7.0  Header ]
 	---------------------------------------------------------------*/
 
-		.jx-menu {
+		.gj-menu {
 			display:none;
 		}
 
-		.jx-event-title-box .jx-event-pretitle {
+		.gj-event-title-box .gj-event-pretitle {
 			font-size: 20px !important;
 		}
 
-		.jx-event-title-box .jx-event-title {
+		.gj-event-title-box .gj-event-title {
 			font-size: 30px !important;
 		}
 
-		.jx-event-title-box .jx-event-location {
+		.gj-event-title-box .gj-event-location {
 			font-size: 16px !important;
 		}
 
-		.jx-event-play i {
+		.gj-event-play i {
 			width: 80px !important;
 			height: 80px !important;
 			line-height: 60px !important;
 			font-size: 30px !important;
 		}
 
-		.jx-event-title-box {
+		.gj-event-title-box {
 			width: 300px !important;
 			height: 120px !important;
 		}
 
-		.jx-event-play {
+		.gj-event-play {
 			width: 120px !important;
 			height: 120px !important;
 			padding-top: 20px !important;
 		}
 
-		.jx-event-countdown {
+		.gj-event-countdown {
 			display:none !important;
 		}
 
-		.jx-right-vertical-border {
+		.gj-right-vertical-border {
 			right: 110px;
 			border-left:none !important;
 		}
 
-		.jx-right-vertical-border .jx-date{
+		.gj-right-vertical-border .gj-date{
 			display:none;
 		}
 
@@ -195,23 +195,23 @@
 	---------------------------------------------------------------*/
 
 
-		.jx-accordion .title {
+		.gj-accordion .title {
 			font-size:18px;
 		}
 
 		/*--------------- Normal According --------------*/
 
 
-		.jx-event-schedule .item {
+		.gj-event-schedule .item {
 		    display: inline;
 		}
 
-		.jx-event-schedule .left-position {
+		.gj-event-schedule .left-position {
     		width: 100%;
 			float:none;
 		}
 
-		.jx-event-schedule .right-position {
+		.gj-event-schedule .right-position {
 			width: 100%;
 			float: none;
 			display: inherit;
@@ -222,20 +222,20 @@
 			padding-bottom: 0px;
 		}
 
-		.jx-event-schedule .head {
+		.gj-event-schedule .head {
 			text-align: center;
 			padding-bottom: 20px;
 		}
 
-		.jx-event-schedule .date span {
+		.gj-event-schedule .date span {
 			padding-right: 0px;
 		}
 
-		.jx-event-schedule .date i {
+		.gj-event-schedule .date i {
  		    padding: 0px 3px 0px 15px;
 		}
 
-		.jx-event-schedule p {
+		.gj-event-schedule p {
 			text-align:left;
 		}
 
@@ -248,22 +248,22 @@
 	---------------------------------------------------------------*/
 
 
-		.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul li {
+		.shortcode_tab_e.gj-white-tab.gj-arrow-tab ul li {
 			width:31%;
 		    padding: 24px 0px 25px;
 			margin-right: 14.5px;
 		}
 
-		.shortcode_tab_e.jx-white-tab.jx-arrow-tab li.resp-tab-active {
+		.shortcode_tab_e.gj-white-tab.gj-arrow-tab li.resp-tab-active {
 			width:31%;
 		    padding: 24px 0px 25px;
 		}
 
-		.jx-tab-date {
+		.gj-tab-date {
 		    font-size: 30px;
 		}
 
-		.jx-tab-day {
+		.gj-tab-day {
 		    font-size: 20px;
 		}
 
@@ -275,12 +275,12 @@
 
 
 
-		.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul.jx-subtab li {
+		.shortcode_tab_e.gj-white-tab.gj-arrow-tab ul.gj-subtab li {
 			font-size: 16px;
 			line-height: 1.5;
 		}
 
-		.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul.jx-subtab li {
+		.shortcode_tab_e.gj-white-tab.gj-arrow-tab ul.gj-subtab li {
 			width:100%;
 			padding-bottom: 15px;
 		}
@@ -293,43 +293,43 @@
 		[11.0  Ticket Form  ]
 	---------------------------------------------------------------*/
 
-		.jx-countdown-form .jx-half-width {
+		.gj-countdown-form .gj-half-width {
 			width: 100% !important;
 		}
 
-		.jx-ticket-form h1 {
+		.gj-ticket-form h1 {
  		 	font-size: 32px;
 		}
 
-		.jx-ticket-form .jx-ticket-type, .jx-ticket-form .jx-ticket-valid {
+		.gj-ticket-form .gj-ticket-type, .gj-ticket-form .gj-ticket-valid {
 			width:100%;
 		}
 
-		.jx-ticket-form .jx-ticket-type {
+		.gj-ticket-form .gj-ticket-type {
 			float: none;
 			margin-right: 0px;
 		}
 
-		.jx-countdown-form .jx-ticket-form {
+		.gj-countdown-form .gj-ticket-form {
 			height: 480px;
 		}
 
-		.jx-ticket-form, .jx-countdown-box {
+		.gj-ticket-form, .gj-countdown-box {
  		 	padding: 40px 40px 0px 40px;
 		}
 
 
 		/*------------- Form ---------------*/
 
-		.jx-countdown-form .jx-countdown-box h1 {
+		.gj-countdown-form .gj-countdown-box h1 {
  		   font-size: 32px;
 		}
-		.jx-countdown .counter-wrapper ul {
+		.gj-countdown .counter-wrapper ul {
 			margin:0px;
 			padding:0px;
 			padding-top:20px;
 		}
-		.jx-countdown .counter-wrapper li {
+		.gj-countdown .counter-wrapper li {
 			margin-right: 4px;
 			margin-top: 0px;
 			margin-left: 4px;
@@ -338,15 +338,15 @@
 			padding:0px;
 		}
 
-		.jx-countdown-form .jx-countdown-box {
+		.gj-countdown-form .gj-countdown-box {
 			height:440px;
 		}
 
-		.jx-countdown .counter-wrapper li .count {
+		.gj-countdown .counter-wrapper li .count {
 			font-size: 25px;
 		}
 
-		.jx-countdown .counter-wrapper li .count-text {
+		.gj-countdown .counter-wrapper li .count-text {
     		font-size: 18px;
 		}
 
@@ -360,7 +360,7 @@
 		[ 11.0  Sponsor  ]
 	---------------------------------------------------------------*/
 
-	.jx-sponsors li {
+	.gj-sponsors li {
 		width: 202px;
 		}
 
@@ -368,7 +368,7 @@
 		[ 12.0  Portfolio  ]
 	---------------------------------------------------------------*/
 
-		.jx-custom-flex .flex-custom-control-nav li {
+		.gj-custom-flex .flex-custom-control-nav li {
 			padding: 10px 10px !important;
 			width: 32%;
 		}
@@ -378,18 +378,18 @@
 			height: 48%;
 		}
 
-		.jx-grid-item.grid-item-width-double-only{
+		.gj-grid-item.grid-item-width-double-only{
 			width: 48%;
 			height: 48%;
 		}
 
-		.jx-grid-item{
+		.gj-grid-item{
 			width:48%;
 			height: 48%;
 			margin: 3px;
 		}
 
-		.jx-grid-item-full {
+		.gj-grid-item-full {
 		  margin-bottom: 12px;
 		  width:100%;
 		  height: 100%;
@@ -398,17 +398,17 @@
 	/*---------------------------------------------------------------
 		[13.0  Testimonial  ]
 	---------------------------------------------------------------*/
-		.jx-testimonial {
+		.gj-testimonial {
 			min-height: 450px;
 			padding-top: 20px;
 		}
 
-		.jx-testimonial-item .jx-testimonial-image {
+		.gj-testimonial-item .gj-testimonial-image {
 			float:none;
 			margin-right: 0px;
 		}
 
-		.jx-testimonial-details .jx-testimonial-icon {
+		.gj-testimonial-details .gj-testimonial-icon {
 			height:auto;
 		}
 
@@ -416,25 +416,25 @@
     		font-size: 290px;
 		}
 
-		.jx-testimonial-item .jx-photo {
+		.gj-testimonial-item .gj-photo {
 			width: 90px;
 			height: 90px;
 			float: none;
 			margin: 20px auto;
 		}
 
-		.jx-testimonial-item .jx-testimonial-content {
+		.gj-testimonial-item .gj-testimonial-content {
 			width: 100%;
 			height: auto;
 			float: none;
 			margin-left: 0;
 		}
 
-		.jx-testimonial-item .jx-testimonial-content .jx-name {
+		.gj-testimonial-item .gj-testimonial-content .gj-name {
 			width: 100%;
 		}
 
-		.jx-testimonial-item .jx-testimonial-content .jx-content p {
+		.gj-testimonial-item .gj-testimonial-content .gj-content p {
 			color: #fff;
 			padding: 10px 20px;
 			line-height: 1.2;
@@ -446,7 +446,7 @@
 	---------------------------------------------------------------*/
 
 
-		.jx-price-table .jx-price-item {
+		.gj-price-table .gj-price-item {
 			margin-bottom:40px;
 		}
 
@@ -455,7 +455,7 @@
 		[14.0  Google Map  ]
 	---------------------------------------------------------------*/
 
-		.jx-hotel-name {
+		.gj-hotel-name {
 			font-size: 16px;
 			font-weight: 500;
 		}
@@ -467,17 +467,17 @@
 	---------------------------------------------------------------*/
 
 
-		.jx-faq .jx-faq-head .jx-faq-title {
+		.gj-faq .gj-faq-head .gj-faq-title {
 			width: 100%;
 			float:none;
 		}
 
-		.jx-faq-description {
+		.gj-faq-description {
 			height:auto;
 			padding:30px 20px 20px 20px;
 		}
 
-		.jx-faq .jx-faq-head .jx-faq-title::after {
+		.gj-faq .gj-faq-head .gj-faq-title::after {
 			left:45%;
 		}
 
@@ -488,25 +488,25 @@
 	---------------------------------------------------------------*/
 
 
-		.jx-map-company > ul > li {
+		.gj-map-company > ul > li {
 			width: 50%;
 		}
 
-		.jx-single-point:nth-of-type(3) {
+		.gj-single-point:nth-of-type(3) {
 			top: 24%;
 			left:16%;
 		}
 
-		.jx-single-point:nth-of-type(1) {
+		.gj-single-point:nth-of-type(1) {
  		   bottom: 63%;
 		   right:28%;
 		 }
 
-		 .jx-single-point:nth-of-type(2) {
+		 .gj-single-point:nth-of-type(2) {
 			bottom: 59%;
 		}
 
-		.jx-single-point:nth-of-type(4) {
+		.gj-single-point:nth-of-type(4) {
     		top: 21%;
 			right:16%;
 		}
@@ -516,11 +516,11 @@
 	---------------------------------------------------------------*/
 
 
-		.jx-contact-form .contact-full-name, .jx-contact-form .contact-email {
+		.gj-contact-form .contact-full-name, .gj-contact-form .contact-email {
 			width: 100%;
 		}
 
-		.jx-contact-form .contact-full-name {
+		.gj-contact-form .contact-full-name {
 			float:  none;
 			margin-right: 0px;
 		}
@@ -530,16 +530,16 @@
 		[20.0  Summary Info  ]
 	---------------------------------------------------------------*/
 
-		.jx-summary-info {
+		.gj-summary-info {
 			height:auto;
 		}
 
-		.jx-summary-info ul > li {
+		.gj-summary-info ul > li {
 			border-right: none;
 			border-bottom: 1px solid rgba(255, 255, 255, 0.2);
 		}
 
-		.jx-summary-info::after {
+		.gj-summary-info::after {
 			left:46%;
 		}
 
@@ -547,7 +547,7 @@
 		[21.0  Blog  ]
 	---------------------------------------------------------------*/
 
-	.jx-blog .image img {
+	.gj-blog .image img {
 		height: 200px !important;
 	}
 
@@ -560,21 +560,21 @@
 		font-size: 12px !important;
 	}
 
-	.jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb span.current {
+	.gj-page-titlebar .gj-page-titlebar-items .gj-breadcrumb span.current {
 		margin-top:20px !important;
 		font-size:14px !important;
 		// float:left !important;
 	}
 
-	.jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb a {
+	.gj-page-titlebar .gj-page-titlebar-items .gj-breadcrumb a {
 		font-size: 14px !important;
 	}
 
-	.jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb {
+	.gj-page-titlebar .gj-page-titlebar-items .gj-breadcrumb {
 		font-size:14px !important;
 	}
 
-	.jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb span.pre-breadcrumb::before {
+	.gj-page-titlebar .gj-page-titlebar-items .gj-breadcrumb span.pre-breadcrumb::before {
 		line-height: 25px !important;
 	}
 
@@ -584,11 +584,11 @@
 	---------------------------------------------------------------*/
 
 
-		.jx-error .jx-error-msg {
+		.gj-error .gj-error-msg {
 			font-size: 25px !important;
 		}
 
-		.jx-error .jx-error-code {
+		.gj-error .gj-error-code {
 			font-size: 150px !important;
 			padding: 20px 0px 0px 0px;
 		}

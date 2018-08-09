@@ -5,7 +5,7 @@
   [1.0 Footer ]
 ---------------------------------------------------------------*/
 
-.jx-footer-social li i {
+.gj-footer-social li i {
   width: 60px;
   height: 60px;
   line-height: 62px;
@@ -13,11 +13,11 @@
 }
 
 
-.jx-footer-social {
+.gj-footer-social {
   padding: 30px 0px 0px !important;
 }
 
-.jx-footer-social li i {
+.gj-footer-social li i {
   width: 60px !important;
   height: 60px !important;
   line-height: 60px !important;
@@ -31,7 +31,7 @@
   font-size: 27px;
   margin-right: 20px;
 }
-.jx-accordion .description{
+.gj-accordion .description{
   margin-left: 28px;
   padding-left: 52px;
 }
@@ -41,12 +41,12 @@
   [2.0 Services ]
 ---------------------------------------------------------------*/
 
-  .jx-servicebox-1 .jx-service-item .service-description p {
+  .gj-servicebox-1 .gj-service-item .service-description p {
     padding: 0px 0px;
   }
 
 
-  .jx-servicebox-1 .jx-service-item .service-icon i {
+  .gj-servicebox-1 .gj-service-item .service-icon i {
     font-size: 50px;
   }
   /*--------Services style #1-------*/
@@ -56,23 +56,23 @@
   [3.0 Media Center ]
 ---------------------------------------------------------------*/
 
-  .jx-media-center .title {
+  .gj-media-center .title {
     font-size: 18px;
   }
 
-  .jx-media-center .date {
+  .gj-media-center .date {
     font-size: 16px;
   }
 
-  .jx-media-center .date span {
+  .gj-media-center .date span {
     padding-right: 10px;
   }
 
-  .jx-media-center .date i {
+  .gj-media-center .date i {
       padding: 0px 2px 0px 0px;
   }
 
-  .jx-media-center .one-third.columns {
+  .gj-media-center .one-third.columns {
     width: 362px;
     margin-bottom: 40px;
   }
@@ -82,31 +82,31 @@
   [4.0 Team ]
 ---------------------------------------------------------------*/
 
-  .jx-team .four.columns {
+  .gj-team .four.columns {
     width:360px;
    }
 
-   .jx-team img {
+   .gj-team img {
     width:100%;
    }
 
-   .jx-team .jx-team-item {
+   .gj-team .gj-team-item {
     //padding-bottom:40px;
    }
 
-   .jx-team .jx-team-item {
+   .gj-team .gj-team-item {
     width: 47.9%;
   }
 
-  .jx-team-item {
+  .gj-team-item {
     width: 23.9%;
   }
 
-  .jx-team-item.jx-team-box-content {
+  .gj-team-item.gj-team-box-content {
     width: 48.7%;
   }
 
-  .jx-image-wrapper .jx-image-hover-info {
+  .gj-image-wrapper .gj-image-hover-info {
     margin-left: -60px;
   }
 
@@ -115,19 +115,19 @@
   [5.0  Countup ]
 ---------------------------------------------------------------*/
 
-  .jx-countup .count-item .count-text {
+  .gj-countup .count-item .count-text {
     font-size: 20px;
   }
 
-  .jx-countup .count-item .count-number {
+  .gj-countup .count-item .count-number {
     font-size: 40px;
   }
 
-  .jx-countup .four.columns {
+  .gj-countup .four.columns {
     width: 360px;
   }
 
-  .jx-counter-item {
+  .gj-counter-item {
     padding-bottom:30px;
   }
 
@@ -137,7 +137,7 @@
 ---------------------------------------------------------------*/
 
 
-  .jx-section-title-1 .jx-title {
+  .gj-section-title-1 .gj-title {
       font-size: 35px;
   }
 
@@ -147,7 +147,7 @@
   [7.0  Header ]
 ---------------------------------------------------------------*/
 
-  .jx-menu {
+  .gj-menu {
     display:none;
   }
 
@@ -156,52 +156,52 @@
 ---------------------------------------------------------------*/
 
 
-  .jx-info-icon i {
+  .gj-info-icon i {
     font-size: 28px !important;
     padding:5px;
   }
 
-  .jx-info-content .info-title {
+  .gj-info-content .info-title {
     font-size: 14px !important;
     text-transform: uppercase !important;
 
   }
 
-  .jx-info-content .info-description {
+  .gj-info-content .info-description {
     font-size: 10px !important;
   }
 
 
-  .jx-countdown .counter-wrapper li {
+  .gj-countdown .counter-wrapper li {
     margin-top:15px;
   }
 
-  .jx-event-play {
+  .gj-event-play {
     height: 200px;
     width: 200px;
     padding-top:30px;
   }
-  .jx-event-title-box {
+  .gj-event-title-box {
     width: 560px;
     height: 200px;
   }
-  .jx-event-play i {
+  .gj-event-play i {
     width: 145px;
     height: 145px;
     line-height: 125px;
     font-size: 70px;
   }
 
-  .jx-right-vertical-border .jx-date{
+  .gj-right-vertical-border .gj-date{
     display:none;
   }
 
-  .jx-right-vertical-border {
+  .gj-right-vertical-border {
     right: 110px;
     border-left:none !important;
   }
 
-  .jx-event-register .jx-ticket-type {
+  .gj-event-register .gj-ticket-type {
     float: left;
   }
 
@@ -212,7 +212,7 @@
 ---------------------------------------------------------------*/
 
 
-  .jx-event-schedule .right-position {
+  .gj-event-schedule .right-position {
     width: 630px;
   }
 
@@ -222,32 +222,32 @@
 ---------------------------------------------------------------*/
 
 
-  .shortcode_tab_e.jx-white-tab.jx-arrow-tab ul li {
+  .shortcode_tab_e.gj-white-tab.gj-arrow-tab ul li {
     width:31.9%;
   }
 
-  .jx-tab-date {
+  .gj-tab-date {
     font-size: 30px;
   }
 
-  .shortcode_tab_e.jx-white-tab.jx-arrow-tab ul li {
+  .shortcode_tab_e.gj-white-tab.gj-arrow-tab ul li {
     padding: 24px 20px 25px 20px;
     margin-left:8px;
     margin-right:7px;
 
   }
 
-  .shortcode_tab_e.jx-white-tab.jx-arrow-tab li.resp-tab-active {
+  .shortcode_tab_e.gj-white-tab.gj-arrow-tab li.resp-tab-active {
     padding: 24px 20px 25px 20px;
   }
 
-  .shortcode_tab_e.jx-white-tab.jx-arrow-tab ul.jx-subtab li {
+  .shortcode_tab_e.gj-white-tab.gj-arrow-tab ul.gj-subtab li {
     font-size: 16px;
     line-height: 1.6;
   }
 
 
-  .jx-ticket-form .jx-ticket-type, .jx-ticket-form .jx-ticket-valid {
+  .gj-ticket-form .gj-ticket-type, .gj-ticket-form .gj-ticket-valid {
     width: 48.2%;
     float:left;
   }
@@ -257,7 +257,7 @@
   [11.0  Ticket Form  ]
 ---------------------------------------------------------------*/
 
-  .jx-countdown-form .jx-half-width {
+  .gj-countdown-form .gj-half-width {
     width: 100% !important;
   }
 
@@ -267,7 +267,7 @@
 ---------------------------------------------------------------*/
 
 
-  .jx-testimonial-item .jx-testimonial-content .jx-content p {
+  .gj-testimonial-item .gj-testimonial-content .gj-content p {
     width:600px;
   }
 
@@ -278,22 +278,22 @@
 ---------------------------------------------------------------*/
 
 
-  .jx-price-table .jx-price-item .jx-price {
+  .gj-price-table .gj-price-item .gj-price {
     font-size: 55px;
     padding: 10px 20px 0px;
     line-height: 85px;
   }
 
-  .jx-price-table .jx-price-item .jx-package-name {
+  .gj-price-table .gj-price-item .gj-package-name {
     font-size: 25px;
     margin-bottom: 15px;
   }
 
-  .jx-price-table .jx-price-item .jx-package-feature {
+  .gj-price-table .gj-price-item .gj-package-feature {
     padding: 0px 20px 15px;
   }
 
-  .jx-price-table .jx-price-item .jx-price span {
+  .gj-price-table .gj-price-item .gj-price span {
     font-size: 30px;
   }
 
@@ -306,17 +306,17 @@
 ---------------------------------------------------------------*/
 
 
-  .jx-faq .jx-faq-head .jx-faq-title {
+  .gj-faq .gj-faq-head .gj-faq-title {
     width: 100%;
     float:none;
   }
 
-  .jx-faq-description {
+  .gj-faq-description {
     height:auto;
     padding:30px 20px 20px 20px;
   }
 
-  .jx-faq .jx-faq-head .jx-faq-title::after {
+  .gj-faq .gj-faq-head .gj-faq-title::after {
     left:47%;
   }
 
@@ -329,11 +329,11 @@
   height: 48.2%;
 }
 
-.jx-grid-item {
+.gj-grid-item {
   width: 23.4%;
   }
 
-.jx-grid-item.grid-item-width-double-only {
+.gj-grid-item.grid-item-width-double-only {
   width: 48%;
   height: 182px;
 }
@@ -343,23 +343,23 @@
 ---------------------------------------------------------------*/
 
 
-  .jx-map-company > ul > li {
+  .gj-map-company > ul > li {
     width: 24.9%;
   }
 
-  .jx-single-point:nth-of-type(3) {
+  .gj-single-point:nth-of-type(3) {
     top: 28%;
   }
 
-  .jx-single-point:nth-of-type(1) {
+  .gj-single-point:nth-of-type(1) {
      bottom: 50%;
    }
 
-   .jx-single-point:nth-of-type(2) {
+   .gj-single-point:nth-of-type(2) {
     bottom: 39%;
   }
 
-  .jx-single-point:nth-of-type(4) {
+  .gj-single-point:nth-of-type(4) {
       top: 21%;
   }
 
@@ -368,27 +368,27 @@
 ---------------------------------------------------------------*/
 
 
-  .jx-summary-info li .jx-info .jx-bar-head {
+  .gj-summary-info li .gj-info .gj-bar-head {
     font-size:25px;
   }
 
-  .jx-summary-info li .jx-info .jx-bar-title {
+  .gj-summary-info li .gj-info .gj-bar-title {
     font-size:14px;
   }
 
-  .jx-summary-info li i {
+  .gj-summary-info li i {
     font-size:35px;
   }
 
-  .jx-summary-info li .jx-subscribe-event .jx-newsletter-box {
+  .gj-summary-info li .gj-subscribe-event .gj-newsletter-box {
     width: 145px;
   }
 
-  .jx-summary-info li .jx-subscribe-event h2 {
+  .gj-summary-info li .gj-subscribe-event h2 {
     font-size:14px;
   }
 
-  .jx-summary-info li .jx-newsletter-submit input {
+  .gj-summary-info li .gj-newsletter-submit input {
     width:70px;
     font-size:14px;
     padding:0px;
@@ -409,11 +409,11 @@
 ---------------------------------------------------------------*/
 
 
-  .jx-error .jx-error-msg {
+  .gj-error .gj-error-msg {
     font-size: 35px !important;
   }
 
-  .jx-error .jx-error-code {
+  .gj-error .gj-error-code {
     font-size: 200px !important;
   }
 

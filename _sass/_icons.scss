@@ -1,35 +1,35 @@
 /* Fontawesome Icon ========================================*/
-.jx-fontawesome-icon-list i {
+.gj-fontawesome-icon-list i {
   color: #000000;
   font-size: 14px;
   width: 30px;
   text-align: center;
 }
 /* Fontawesome Icon Listing Page */
-.jx-fontawesome-icon-list li{
+.gj-fontawesome-icon-list li{
   border:1px solid #eee;
   padding:10px;
 }
-.jx-fontawesome-icon-list li:hover{
+.gj-fontawesome-icon-list li:hover{
   background:#f9f9f9;
 }
-.jx-fontawesome-icon-list li i{
+.gj-fontawesome-icon-list li i{
   font-size: 20px;
   color:#666
 }
-.jx-icon-listing-1 li{
+.gj-icon-listing-1 li{
   float:left
 }
-.jx-icon-listing-1 .icon{
+.gj-icon-listing-1 .icon{
   color:#000 !important;
 }
-.jx-dark .icon{
+.gj-dark .icon{
   color:#000;
 }
-.jx-light .icon{
+.gj-light .icon{
   color:#fff;
 }
-.jx-icon-listing-1.jx-light .icon{
+.gj-icon-listing-1.gj-light .icon{
   color:#fff !important;
 }
 
@@ -62,7 +62,7 @@
 
 
 // Page Specific
-.jx-location-event i.icon-calendar
+.gj-location-event i.icon-calendar
 {
   margin-top: 10px;
 }

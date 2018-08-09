@@ -1,19 +1,19 @@
-<div id='videos' class="jx-container container-no-margin jx-padding background-001">
+<div id='videos' class="gj-container container-no-margin gj-padding background-001">
 
             <div class="container ">
-                <div class="jx-section-title-1 jx-dark">
+                <div class="gj-section-title-1 gj-dark">
 
-                    <div class="jx-pre-title jx-short-border">
-                    <div class="jx-title-icon-light"><i class="icon-video"></i></div>
+                    <div class="gj-pre-title gj-short-border">
+                    <div class="gj-title-icon-light"><i class="icon-video"></i></div>
                     </div>
-                    <div class="jx-title jx-title-light jx-uppercase">Video Footage</div>
-                    <div class="jx-subtitle"><p>Here's a quick comprehensive list of all our released video footage available through Vimeo. Each video’s page on Vimeo has a download link to the original source file. We ask that credit be given if any clips are used from the videos.</p></div>
+                    <div class="gj-title gj-title-light gj-uppercase">Video Footage</div>
+                    <div class="gj-subtitle"><p>Here's a quick comprehensive list of all our released video footage available through Vimeo. Each video’s page on Vimeo has a download link to the original source file. We ask that credit be given if any clips are used from the videos.</p></div>
                 </div>
                 <!-- START 01 -->
 
                 {% for video in site.data.media-videos %}
 
-                <div class="jx-grid-item jx-grid-item-full">
+                <div class="gj-grid-item gj-grid-item-full">
                   <iframe class="release-video" id="{{video.vimeo}}" src="https://player.vimeo.com/video/{{video.vimeo}}?api=1&player_id={{video.vimeo}}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen width="100%"></iframe>
                   <div class="media-video-download"><a href="{{ video.url }}">{{ video.title }}</a></div>
                 </div>

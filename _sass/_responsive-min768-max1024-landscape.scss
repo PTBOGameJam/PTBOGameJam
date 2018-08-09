@@ -6,7 +6,7 @@
   [4.0 Team ]
 ---------------------------------------------------------------*/
 
-.jx-team-details .jx-team-social ul li i {
+.gj-team-details .gj-team-social ul li i {
   margin-right: 8px;
   width: 40px;
   height: 40px;
@@ -14,20 +14,20 @@
   font-size: 18px;
  }
 
- .jx-team .jx-team-item {
+ .gj-team .gj-team-item {
     width: 31.9%;
   }
 
-.jx-team .jx-team-item img {
+.gj-team .gj-team-item img {
     width: 100%;
   }
 
-.jx-team-item {
+.gj-team-item {
   width: 19.2%;
 }
 
 
-.jx-image-wrapper .jx-image-hover-info {
+.gj-image-wrapper .gj-image-hover-info {
   margin-left: -60px;
 }
 
@@ -35,7 +35,7 @@
   [7.0  Header ]
 ---------------------------------------------------------------*/
 
-  .jx-menu {
+  .gj-menu {
     display:none;
   }
 
@@ -44,52 +44,52 @@
   [8.0  Slider ]
 ---------------------------------------------------------------*/
 
-  .jx-info-icon i {
+  .gj-info-icon i {
     font-size: 35px !important;
     padding:3px;
   }
 
-  .jx-info-content .info-title {
+  .gj-info-content .info-title {
     font-size: 16px !important;
     line-height:18px;
     text-transform: uppercase;
   }
 
-  .jx-info-content .info-description {
+  .gj-info-content .info-description {
     font-size: 14px !important;
   }
 
-  .jx-event-title-box .jx-event-title {
+  .gj-event-title-box .gj-event-title {
     font-size: 30px;
   }
-  .jx-event-title-box .jx-event-location {
+  .gj-event-title-box .gj-event-location {
     font-size: 18px;
   }
-  .jx-event-title-box .jx-event-pretitle {
+  .gj-event-title-box .gj-event-pretitle {
     font-size: 20px;
   }
 
-  .jx-countdown .counter-wrapper li {
+  .gj-countdown .counter-wrapper li {
     margin-top:15px;
   }
 
-  .jx-event-play {
+  .gj-event-play {
     height: 200px;
     width: 200px;
     padding-top:30px;
   }
-  .jx-event-title-box {
+  .gj-event-title-box {
     width: 560px;
     height: 200px;
   }
-  .jx-event-play i {
+  .gj-event-play i {
     width: 145px;
     height: 145px;
     line-height: 125px;
     font-size: 70px;
   }
 
-  .jx-event-register .jx-ticket-type {
+  .gj-event-register .gj-ticket-type {
     float: left;
   }
 
@@ -98,7 +98,7 @@
 ---------------------------------------------------------------*/
 
 
-  .jx-event-schedule .right-position {
+  .gj-event-schedule .right-position {
     width: 830px;
   }
 
@@ -108,11 +108,11 @@
 ---------------------------------------------------------------*/
 
 
-  .shortcode_tab_e.jx-white-tab.jx-arrow-tab ul li {
+  .shortcode_tab_e.gj-white-tab.gj-arrow-tab ul li {
     width:32.5%;
   }
 
-  .shortcode_tab_e.jx-white-tab.jx-arrow-tab ul.jx-subtab li {
+  .shortcode_tab_e.gj-white-tab.gj-arrow-tab ul.gj-subtab li {
     font-size: 16px;
     line-height: 1.5;
   }
@@ -124,34 +124,34 @@
 
 
 
-  .jx-ticket-form h1 {
+  .gj-ticket-form h1 {
     font-size: 32px;
   }
 
-  .jx-ticket-form .jx-ticket-type {
+  .gj-ticket-form .gj-ticket-type {
     width:46%;
   }
 
-  .jx-countdown-form .jx-ticket-form {
+  .gj-countdown-form .gj-ticket-form {
     height: 410px;
   }
 
-  .jx-ticket-form, .jx-countdown-box {
+  .gj-ticket-form, .gj-countdown-box {
     padding: 40px 40px 0px 40px;
   }
 
 
   /*------------- Form ---------------*/
 
-  .jx-countdown-form .jx-countdown-box h1 {
+  .gj-countdown-form .gj-countdown-box h1 {
      font-size: 32px;
   }
-  .jx-countdown .counter-wrapper ul {
+  .gj-countdown .counter-wrapper ul {
     margin:0px;
     padding:0px;
     padding-top:20px;
   }
-  .jx-countdown .counter-wrapper li {
+  .gj-countdown .counter-wrapper li {
     margin-right: 4px;
     margin-top: 0px;
     margin-left: 4px;
@@ -160,21 +160,21 @@
     padding:0px;
   }
 
-  .jx-countdown .counter-wrapper li .count {
+  .gj-countdown .counter-wrapper li .count {
     font-size:25px;
   }
 
-  .jx-countdown .counter-wrapper li .count-text {
+  .gj-countdown .counter-wrapper li .count-text {
     font-size:18px;
   }
 
-  .jx-countdown-form .jx-countdown-box {
+  .gj-countdown-form .gj-countdown-box {
     height:408px;
   }
 
 
 
-  .jx-ticket-form .jx-ticket-type, .jx-ticket-form .jx-ticket-valid {
+  .gj-ticket-form .gj-ticket-type, .gj-ticket-form .gj-ticket-valid {
     width: 46.8%;
     float:left;
   }
@@ -187,11 +187,11 @@
 /*---------------------------------------------------------------
   [13.0 Count Up  ]
 ---------------------------------------------------------------*/
-.jx-counter-item .jx-counter-info .jx-counter-text {
+.gj-counter-item .gj-counter-info .gj-counter-text {
   font-size: 17px;
 }
 
-.jx-counter-item .jx-counter-info .jx-counter-number {
+.gj-counter-item .gj-counter-info .gj-counter-number {
   font-size: 44px;
 }
 
@@ -200,13 +200,13 @@
 ---------------------------------------------------------------*/
 
 
-  .jx-price-table .jx-price-item .jx-price {
+  .gj-price-table .gj-price-item .gj-price {
     font-size: 75px;
     padding: 20px 20px 0px;
     line-height: 95px;
   }
 
-  .jx-price-table .jx-price-item .jx-package-name {
+  .gj-price-table .gj-price-item .gj-package-name {
     font-size: 30px;
     margin-bottom: 25px;
   }
@@ -216,7 +216,7 @@
   [16.0  FAQ BOX  ]
 ---------------------------------------------------------------*/
 
-  .jx-faq-description p {
+  .gj-faq-description p {
     font-size: 15px;
   }
 
@@ -226,26 +226,26 @@
 ---------------------------------------------------------------*/
 
 
-  .jx-map-company > ul > li {
+  .gj-map-company > ul > li {
     width: 24.9%;
   }
 
-  .jx-single-point:nth-of-type(3) {
+  .gj-single-point:nth-of-type(3) {
     top: 25%;
   }
 
-  .jx-single-point:nth-of-type(1) {
+  .gj-single-point:nth-of-type(1) {
      bottom: 50%;
    }
 
-   .jx-single-point:nth-of-type(2) {
+   .gj-single-point:nth-of-type(2) {
     bottom: 38%;
   }
 
 /*---------------------------------------------------------------
   [18.0  Sponsor Logo  ]
 ---------------------------------------------------------------*/
-  .jx-sponsor{
+  .gj-sponsor{
       overflow: hidden
     }
 
@@ -258,11 +258,11 @@
   width: 38.6% !important;
   height: 38.6%;
 }
-.jx-grid-item {
+.gj-grid-item {
      width: 18.7%;
 }
 
-.jx-grid-item.grid-item-width-double-only {
+.gj-grid-item.grid-item-width-double-only {
   height: 182px;
   width:38.7%;
 }
@@ -273,23 +273,23 @@
 ---------------------------------------------------------------*/
 
 
-  .jx-summary-info li .jx-info .jx-bar-head {
+  .gj-summary-info li .gj-info .gj-bar-head {
     font-size:30px;
   }
 
-  .jx-summary-info li .jx-info .jx-bar-title {
+  .gj-summary-info li .gj-info .gj-bar-title {
     font-size:16px;
   }
 
-  .jx-summary-info li i {
+  .gj-summary-info li i {
     font-size:47px;
   }
 
-  .jx-summary-info li .jx-subscribe-event .jx-newsletter-box {
+  .gj-summary-info li .gj-subscribe-event .gj-newsletter-box {
     width: 180px;
   }
 
-  .jx-summary-info li .jx-subscribe-event h2 {
+  .gj-summary-info li .gj-subscribe-event h2 {
     font-size:14px;
   }
 
@@ -298,7 +298,7 @@
   [21.0  Blog  ]
 ---------------------------------------------------------------*/
 
-.jx-blog .jx-image-wrapper .jx-blog-more i {
+.gj-blog .gj-image-wrapper .gj-blog-more i {
   font-size: 30px;
   width: 100px;
   height: 100px;
@@ -312,11 +312,11 @@
 ---------------------------------------------------------------*/
 
 
-  .jx-error .jx-error-msg {
+  .gj-error .gj-error-msg {
     font-size: 45px !important;
   }
 
-  .jx-error .jx-error-code {
+  .gj-error .gj-error-code {
     font-size: 250px !important;
   }
 

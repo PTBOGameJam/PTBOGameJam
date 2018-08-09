@@ -1,29 +1,29 @@
-<div id="releases" class="jx-container jx-padding jx-grey-bg">
+<div id="releases" class="gj-container gj-padding gj-grey-bg">
 
         	<div class="container">
 
-                <div class="jx-section-title-1">
-                    <div class="jx-pre-title jx-short-border">
-                        <div class="jx-title-border left"></div>
-                        <div class="jx-title-icon"><i class="icon-docs"></i></div>
-                        <div class="jx-title-border right"></div>
+                <div class="gj-section-title-1">
+                    <div class="gj-pre-title gj-short-border">
+                        <div class="gj-title-border left"></div>
+                        <div class="gj-title-icon"><i class="icon-docs"></i></div>
+                        <div class="gj-title-border right"></div>
                     </div>
-                    <div class="jx-title jx-uppercase">Media Releases</div>
+                    <div class="gj-title gj-uppercase">Media Releases</div>
                 </div>
                 <!-- Section Title -->
                 <div class="row"></div>
                 <div class="row"></div>
 
 
-                <div class="jx-media-center">
+                <div class="gj-media-center">
                   {% for post in site.categories.media-releases limit:3  %}
                     <div class="one-third columns">
                         <a href="{{ post.url | prepend: site.baseurl }}">
-                        <div class="image jx-image-wrapper">
+                        <div class="image gj-image-wrapper">
                           <img src="{{ "/content/img/post/" | prepend: site.baseurl }}{{ post.code }}.jpg" srcset="{{ "/content/img/post/" | prepend: site.baseurl }}{{ post.code }}.jpg 1x, {{ "/content/img/post/" | prepend: site.baseurl }}{{ post.code }}@2x.jpg 2x" alt="{{ post.title }}">
-                          <div class="jx-image-overlay"></div>
-                            <div class="jx-image-hover">
-                              <a href="{{ post.url | prepend: site.baseurl }}" class="jx-blog-more"><i class="icon-doc"></i></a>
+                          <div class="gj-image-overlay"></div>
+                            <div class="gj-image-hover">
+                              <a href="{{ post.url | prepend: site.baseurl }}" class="gj-blog-more"><i class="icon-doc"></i></a>
                             </div>
                             <!-- Image Hover -->
                         </div>
@@ -43,8 +43,8 @@
                 <div class="row"></div>
                 <div class="row"></div>
 
-                <div class="jx-btn-center">
-                <a href="{{ site.data.links-relative.media | prepend: site.baseurl }}" class="jx-btn-default">READ ALL</a>
+                <div class="gj-btn-center">
+                <a href="{{ site.data.links-relative.media | prepend: site.baseurl }}" class="gj-btn-default">READ ALL</a>
                 </div>
                 <!-- Read More Button -->
 

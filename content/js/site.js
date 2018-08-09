@@ -221,7 +221,7 @@ $(window).resize(function() { onResizeSite(); });
 function onResizeSite()
 {
     // Make all our fullwidth guys proper
-    $('.jx-parallax-fullwidth').css('height', window.innerHeight + 'px');
+    $('.gj-parallax-fullwidth').css('height', window.innerHeight + 'px');
 }
 onResizeSite();
 
@@ -245,7 +245,7 @@ function onReadySite()
 
 
   //Count Go up
-  $('.jx-counter-number').animate({marginTop:0},1000,'swing');
+  $('.gj-counter-number').animate({marginTop:0},1000,'swing');
 
   $('.count-1').counterUp({
     delay: 10,

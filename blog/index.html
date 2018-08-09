@@ -5,29 +5,29 @@ titlebar: title-018.jpg
 blog: current
 ---
 <div class="container with-sidebar">
-  <div class="posts sixteen columns jx-padding alpha jx-blog">
+  <div class="posts sixteen columns gj-padding alpha gj-blog">
     {% for post in paginator.posts %}
-    <div id="post-{{ post.code }}" class="jx-blog post type-post hentry">
-      <div class="jx-blog-item">
-        <div class="jx-image-container">
+    <div id="post-{{ post.code }}" class="gj-blog post type-post hentry">
+      <div class="gj-blog-item">
+        <div class="gj-image-container">
           <a href="{{ site.baseurl }}{{ post.url }}">
           {% if post.image %}
-          <div class="jx-blog-image">
-              <div class="image jx-image-wrapper">
+          <div class="gj-blog-image">
+              <div class="image gj-image-wrapper">
                 <img width="0" height="0" src="/content/img/post/{{post.image}}" class="attachment-blog size-blog " draggable="false" hdpi="true">
-                <div class="jx-image-overlay"></div>
-                <div class="jx-image-hover">
-                  <a href="{{ site.baseurl }}{{ post.url }}" class="jx-blog-more"><i class="icon-doc-text"></i></a>
+                <div class="gj-image-overlay"></div>
+                <div class="gj-image-hover">
+                  <a href="{{ site.baseurl }}{{ post.url }}" class="gj-blog-more"><i class="icon-doc-text"></i></a>
                 </div>
               </div>
           </div>
           {% endif %}
           </a>
-          <div class="jx-blog-content clearfix">
-            <div class="jx-blog-head">
-                <div class="jx-post-format"><a href="{{ site.baseurl }}{{ post.url }}"><i class="icon-{{post.icon}}"></i></a></div>
-                <div class="jx-blog-meta">
-                    <div class="jx-event-date">{{ post.date | date_to_string }}</div>
+          <div class="gj-blog-content clearfix">
+            <div class="gj-blog-head">
+                <div class="gj-post-format"><a href="{{ site.baseurl }}{{ post.url }}"><i class="icon-{{post.icon}}"></i></a></div>
+                <div class="gj-blog-meta">
+                    <div class="gj-event-date">{{ post.date | date_to_string }}</div>
                 </div>
                 <div class="title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></div>
             </div>
@@ -38,7 +38,7 @@ blog: current
     </div>
     {% endfor %}
 
-    <div class="jx-pagination">
+    <div class="gj-pagination">
       {% for i in (1..paginator.total_pages) reversed %}
         {% if i == 1 %}
           {% if paginator.page == 1 %}

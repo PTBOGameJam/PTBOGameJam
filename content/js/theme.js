@@ -75,11 +75,11 @@ Version: 		1.0
 				jQuery.validate({
 					modules : 'date, security'
 				});
-				jQuery('.jx-parallax-fullwidth').css({'height':((jQuery(window).height()))+'px'});
+				jQuery('.gj-parallax-fullwidth').css({'height':((jQuery(window).height()))+'px'});
 			});
 
 			jQuery(window).resize(function(){ // On resize
-				jQuery('.jx-parallax-fullwidth').css({'height':((jQuery(window).height()))+'px'});
+				jQuery('.gj-parallax-fullwidth').css({'height':((jQuery(window).height()))+'px'});
 
 			});
 
@@ -217,7 +217,7 @@ Version: 		1.0
 
 		parallax: function(){
 
-		jQuery('.parallax,.jx-page-header-parallax').scrolly({bgParallax: true});
+		jQuery('.parallax,.gj-page-header-parallax').scrolly({bgParallax: true});
 
 		},
 
@@ -245,14 +245,14 @@ Version: 		1.0
 			}
 
 			//switch from monthly to annual pricing tables
-			bouncy_filter($('.jx-pricing-container'));
+			bouncy_filter($('.gj-pricing-container'));
 
 			function bouncy_filter(container) {
 				container.each(function(){
 					var pricing_table = $(this);
-					var filter_list_container = pricing_table.children('.jx-pricing-switcher'),
+					var filter_list_container = pricing_table.children('.gj-pricing-switcher'),
 						filter_radios = filter_list_container.find('input[type="radio"]'),
-						pricing_table_wrapper = pricing_table.find('.jx-pricing-wrapper');
+						pricing_table_wrapper = pricing_table.find('.gj-pricing-wrapper');
 
 					//store pricing table items
 					var table_elements = {};
@@ -270,8 +270,8 @@ Version: 		1.0
 						//give higher z-index to the pricing table items selected by the radio input
 						show_selected_items(table_elements[selected_filter]);
 
-						//rotate each jx-pricing-wrapper
-						//at the end of the animation hide the not-selected pricing tables and rotate back the .jx-pricing-wrapper
+						//rotate each gj-pricing-wrapper
+						//at the end of the animation hide the not-selected pricing tables and rotate back the .gj-pricing-wrapper
 
 						if( !Modernizr.cssanimations ) {
 							hide_not_selected_items(table_elements, selected_filter);
@@ -280,8 +280,8 @@ Version: 		1.0
 							pricing_table_wrapper.addClass('is-switched').eq(0).one('webkitAnimationEnd oanimationend msAnimationEnd animationend', function() {
 								hide_not_selected_items(table_elements, selected_filter);
 								pricing_table_wrapper.removeClass('is-switched');
-								//change rotation direction if .jx-pricing-list has the .jx-bounce-invert class
-								if(pricing_table.find('.jx-pricing-list').hasClass('jx-bounce-invert')) pricing_table_wrapper.toggleClass('reverse-animation');
+								//change rotation direction if .gj-pricing-list has the .gj-bounce-invert class
+								if(pricing_table.find('.gj-pricing-list').hasClass('gj-bounce-invert')) pricing_table_wrapper.toggleClass('reverse-animation');
 							});
 						}
 					});

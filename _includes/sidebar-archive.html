@@ -1,10 +1,10 @@
-<div id="sidebar" class="four columns left jx-padding omega">
+<div id="sidebar" class="four columns left gj-padding omega">
 
-  <div class="jx-sidebar-widget">
+  <div class="gj-sidebar-widget">
     <div id="recent-posts-4" class="widget widget_recent_entries">
       <div class="sub">
         <h4>Team Members</h4>
-        <div class="jx-right-pattern"></div>
+        <div class="gj-right-pattern"></div>
       </div>
       <ul>
         {% for member in page.team %}
@@ -25,11 +25,11 @@
   </div>
   
   <!-- GENRE -->
-  <div class="jx-sidebar-widget">
+  <div class="gj-sidebar-widget">
     <div id="recent-posts-4" class="widget widget_recent_entries">
       <div class="sub">
         <h4>Genre</h4>
-        <div class="jx-right-pattern"></div>
+        <div class="gj-right-pattern"></div>
       </div>
       <ul>
         {% assign sorted_genre = page.genre | sort: "value" | reverse %}
@@ -41,11 +41,11 @@
   </div>
   
   <!-- PLATFORMS -->
-  <div class="jx-sidebar-widget">
+  <div class="gj-sidebar-widget">
     <div id="recent-posts-4" class="widget widget_recent_entries">
       <div class="sub">
         <h4>Platforms</h4>
-        <div class="jx-right-pattern"></div>
+        <div class="gj-right-pattern"></div>
       </div>
       <ul>
         {% assign sorted_platforms = page.platforms | sort: "value" | reverse %}

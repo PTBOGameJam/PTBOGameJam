@@ -1,7 +1,7 @@
 /* Dark Skin */
 
 
-.jx-section-title-1 .jx-title, .jx-media-center .title , .jx-servicebox-1 .jx-service-item .service-title a , .jx-event-schedule .title {
+.gj-section-title-1 .gj-title, .gj-media-center .title , .gj-servicebox-1 .gj-service-item .service-title a , .gj-event-schedule .title {
     color: #ffffff !important;
 }
 
@@ -10,25 +10,25 @@ body {
 }
 
 
-.jx-countdown-box.jx-white-bg p , .jx-testimonial-content .jx-testimonial-description p {
+.gj-countdown-box.gj-white-bg p , .gj-testimonial-content .gj-testimonial-description p {
     color: #666666 !important;
 }
 
 
 
-.jx-section-title-1 .jx-title-border , .jx-countdown-box.jx-white-bg{
+.gj-section-title-1 .gj-title-border , .gj-countdown-box.gj-white-bg{
 	background:#ffffff !important;
 }
 
-.jx-section-title-1 .jx-title-border-light {
+.gj-section-title-1 .gj-title-border-light {
 	background:$grey-color-dark !important;
 }
 
-.jx-section-title-1 .jx-title-light {
+.gj-section-title-1 .gj-title-light {
 	color:$grey-color-dark !important;
 }
 
-.jx-faq-description{
+.gj-faq-description{
     background: #ffffff !important;
     color: #000000 !important;
 }
@@ -40,14 +40,14 @@ body {
 }
 
 
-.jx-map-company > ul > li {
+.gj-map-company > ul > li {
 	border: 4px solid #000 !important;
 	color: #fff !important;
 	background: #111!important;
 }
 
 
-.jx-custom-flex .flex-custom-control-nav li a {
+.gj-custom-flex .flex-custom-control-nav li a {
 	background:#000000 !important;
 }
 
@@ -57,36 +57,36 @@ body {
 }
 
 
-.jx-white-bg {
+.gj-white-bg {
     background-color: #000000 !important;
 }
-.jx-grey-bg {
+.gj-grey-bg {
     background-color: $grey-color-dark-more !important;
 }
 
-.jx-light .jx-team-item.jx-team-box-content .jx-title {
+.gj-light .gj-team-item.gj-team-box-content .gj-title {
 	color: #111 !important;
 }
 
-.jx-team-item.jx-team-box-content .jx-title {
+.gj-team-item.gj-team-box-content .gj-title {
 	color:#FFFFFF !important;
 }
 
 
-.jx-footer-widget {
+.gj-footer-widget {
 	background: $grey-color-dark-more !important;
 }
 
 
-.jx-post-footer {
+.gj-post-footer {
 	background:#000000 !important;
 }
 
-.jx-media-center .description {
+.gj-media-center .description {
 	color:#000000 !important;
 }
 
-.jx-media-center .date span {
+.gj-media-center .date span {
 	color:#000000 !important;
 }
 
@@ -94,14 +94,14 @@ body {
 /* ------------------------------------------------------------------------ */
 /* Color
 /* ------------------------------------------------------------------------ */
-.jx-info-content .info-title , .jx-section-title-1 .jx-title-icon i , .jx-servicebox-1 .jx-service-item .service-icon i , .jx-event-schedule .date ,
-.jx-event-schedule .date i , .jx-media-center .date i , .jx-countdown-form .jx-countdown-box h1 , .jx-btn-default.jx-outline , .jx-testimonial-details .jx-testimonial-icon i , .jx-testimonial-content .jx-testimonial-name , a , .jx-price-item.jx-white .jx-price,.jx-price-item.jx-white .jx-package-name,.jx-price-item.jx-white .jx-package-feature , .jx-btn-default.jx-outline i , .jx-readmore a , .jx-blog .title a , .jx-team-details .jx-team-social ul li:hover i , .jx-team-item.jx-team-box-content .jx-title span
+.gj-info-content .info-title , .gj-section-title-1 .gj-title-icon i , .gj-servicebox-1 .gj-service-item .service-icon i , .gj-event-schedule .date ,
+.gj-event-schedule .date i , .gj-media-center .date i , .gj-countdown-form .gj-countdown-box h1 , .gj-btn-default.gj-outline , .gj-testimonial-details .gj-testimonial-icon i , .gj-testimonial-content .gj-testimonial-name , a , .gj-price-item.gj-white .gj-price,.gj-price-item.gj-white .gj-package-name,.gj-price-item.gj-white .gj-package-feature , .gj-btn-default.gj-outline i , .gj-readmore a , .gj-blog .title a , .gj-team-details .gj-team-social ul li:hover i , .gj-team-item.gj-team-box-content .gj-title span
 {
 	color: $primary-color ;
 }
 
 
-.jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb a:hover , .jx-section-title-1 .jx-title-icon i , .jx-info-content .info-title , .jx-servicebox-2 .service-icon i , .jx-testimonial-item .jx-testimonial-content .jx-name i{
+.gj-page-titlebar .gj-page-titlebar-items .gj-breadcrumb a:hover , .gj-section-title-1 .gj-title-icon i , .gj-info-content .info-title , .gj-servicebox-2 .service-icon i , .gj-testimonial-item .gj-testimonial-content .gj-name i{
 	color:$primary-color !important;
 }
 
@@ -110,16 +110,16 @@ a:hover {
 }
 
 
-.jx-btn-default {
+.gj-btn-default {
 	color: #ffffff !important;
 }
-.jx-btn-default:hover {
+.gj-btn-default:hover {
 	color:#ffffff !important;
 }
-.jx-btn-default.jx-outline {
+.gj-btn-default.gj-outline {
 	color:$primary-color !important;
 }
-.jx-btn-default.jx-outline:hover {
+.gj-btn-default.gj-outline:hover {
 	color:#ffffff !important;
 }
 
@@ -135,17 +135,17 @@ a:hover {
 {
 	background:$primary-color !important;
 }
-.jx-servicebox-1 .jx-service-item .service-title-border , .jx-event-schedule .image i , .jx-team-details , .grid-item ,
-.jx-newsletter .jx-form-wrapper button , .jx-single-point > a  , .jx-countdown .counter-wrapper li  , .jx-faq .jx-faq-head .jx-faq-title , .jx-contact-form input.jx-submit, .jx-menu .main-menu li:hover, .jx-menu .main-menu li a.mPS2id-highlight , .jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb span.current , .jx-image-container .jx-post-format , .jx-sidebar-widget .jx-right-pattern , .jx-blog-item .flex-control-paging li a.flex-active , .jx-page-search.wide .jx-form-wrapper button , .jx-ticket-form .jx-btn-default , .jx-price-table .jx-price-item , .jx-pagination span.current , #comment-submit, .jx-testimonial-item .jx-testimonial-content .jx-name , .jx-summary-info , .jx-footersection-widget .jx-right-pattern , .jx-hr-title , .jx-servicebox-2 .jx-service-item .service-title-border
+.gj-servicebox-1 .gj-service-item .service-title-border , .gj-event-schedule .image i , .gj-team-details , .grid-item ,
+.gj-newsletter .gj-form-wrapper button , .gj-single-point > a  , .gj-countdown .counter-wrapper li  , .gj-faq .gj-faq-head .gj-faq-title , .gj-contact-form input.gj-submit, .gj-menu .main-menu li:hover, .gj-menu .main-menu li a.mPS2id-highlight , .gj-page-titlebar .gj-page-titlebar-items .gj-breadcrumb span.current , .gj-image-container .gj-post-format , .gj-sidebar-widget .gj-right-pattern , .gj-blog-item .flex-control-paging li a.flex-active , .gj-page-search.wide .gj-form-wrapper button , .gj-ticket-form .gj-btn-default , .gj-price-table .gj-price-item , .gj-pagination span.current , #comment-submit, .gj-testimonial-item .gj-testimonial-content .gj-name , .gj-summary-info , .gj-footersection-widget .gj-right-pattern , .gj-hr-title , .gj-servicebox-2 .gj-service-item .service-title-border
 {
 	background:$primary-color !important;
 }
 
-.jx-sponsor .flex-control-nav.flex-control-paging li a , .jx-testimonial .flex-control-nav.flex-control-paging li a , .jx-price-table .jx-price-item , .jx-btn-default
+.gj-sponsor .flex-control-nav.flex-control-paging li a , .gj-testimonial .flex-control-nav.flex-control-paging li a , .gj-price-table .gj-price-item , .gj-btn-default
 {
 	background:$primary-color;
 }
-.jx-price-item.jx-white{
+.gj-price-item.gj-white{
   background:#fff !important;
 }
 
@@ -153,7 +153,7 @@ a:hover {
 /* Background Color
 /* ------------------------------------------------------------------------ */
 
-.jx-default-bg , .jx-pricing-switcher .jx-switch , table th , .page-title span , .jx-sidebar-widget .widget_search input.search-submit , .shortcode_tab_e.jx-white-tab.jx-arrow-tab li.resp-tab-active , .jx-price-table .jx-price-item.jx-white .jx-price , .jx-price-table .jx-price-item.jx-white .jx-package-name
+.gj-default-bg , .gj-pricing-switcher .gj-switch , table th , .page-title span , .gj-sidebar-widget .widget_search input.search-submit , .shortcode_tab_e.gj-white-tab.gj-arrow-tab li.resp-tab-active , .gj-price-table .gj-price-item.gj-white .gj-price , .gj-price-table .gj-price-item.gj-white .gj-package-name
 {
 	background-color:$primary-color !important;
 }
@@ -162,7 +162,7 @@ a:hover {
 /* Background RGBA Color
 /* ------------------------------------------------------------------------ */
 
-.grid-item .jx-portfolio-hoverlayer  , .jx-media-center .jx-image-wrapper .jx-image-overlay , .jx-blog .jx-image-wrapper .jx-image-overlay , .jx-image-wrapper .jx-image-overlayer {
+.grid-item .gj-portfolio-hoverlayer  , .gj-media-center .gj-image-wrapper .gj-image-overlay , .gj-blog .gj-image-wrapper .gj-image-overlay , .gj-image-wrapper .gj-image-overlayer {
 	background: $primary-color-transparent !important;
 }
 
@@ -170,19 +170,19 @@ a:hover {
 /* Border Color
 /* ------------------------------------------------------------------------ */
 
-.jx-btn-default.jx-outline , .jx-testimonial .flex-control-nav.flex-control-paging li a.flex-active , .jx-sponsor .flex-control-nav.flex-control-paging li a.flex-active , .jx-price-item.jx-white .jx-package-feature li , .jx-blog-item .flex-control-paging li a , .jx-ticket-form .jx-btn-default:hover , .jx-pagination span.current , .jx-pagination a.page-numbers
+.gj-btn-default.gj-outline , .gj-testimonial .flex-control-nav.flex-control-paging li a.flex-active , .gj-sponsor .flex-control-nav.flex-control-paging li a.flex-active , .gj-price-item.gj-white .gj-package-feature li , .gj-blog-item .flex-control-paging li a , .gj-ticket-form .gj-btn-default:hover , .gj-pagination span.current , .gj-pagination a.page-numbers
 	{
 		border-color:$primary-color !important;
 	}
-.jx-faq .jx-faq-head .jx-faq-title::after
+.gj-faq .gj-faq-head .gj-faq-title::after
 	{
 	border-color: $primary-color transparent !important;
 	}
-.shortcode_tab_e.jx-white-tab.jx-arrow-tab ul li.resp-tab-active::after , .jx-summary-info::after
+.shortcode_tab_e.gj-white-tab.gj-arrow-tab ul li.resp-tab-active::after , .gj-summary-info::after
 {
 	border-color: $primary-color transparent;
 }
-.jx-btn-default {
+.gj-btn-default {
 	border-color:$primary-color;
 }
 
@@ -212,7 +212,7 @@ a:hover {
 /* ------------------------------------------------------------------------ */
 /* Variant Background Color
 /* ------------------------------------------------------------------------ */
-.jx-bg-defualt-1{background-color:#c63f32 !important}
-.jx-bg-defualt-2{background-color:#ad3b30 !important}
-.jx-bg-defualt-3{background-color:#852f27 !important}
-.jx-bg-defualt-4{background-color:#5b1a13 !important}
+.gj-bg-defualt-1{background-color:#c63f32 !important}
+.gj-bg-defualt-2{background-color:#ad3b30 !important}
+.gj-bg-defualt-3{background-color:#852f27 !important}
+.gj-bg-defualt-4{background-color:#5b1a13 !important}

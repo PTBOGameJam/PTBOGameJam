@@ -4,7 +4,7 @@
   [7.0  Header ]
 ---------------------------------------------------------------*/
 
-  .jx-menu {
+  .gj-menu {
     display:none;
   }
 
@@ -22,12 +22,12 @@
   margin-right: 20px;
 }
 
-.jx-accordion .description{
+.gj-accordion .description{
   margin-left: 13px;
   padding-left: 36px;
 }
 
-  .jx-footer-social li i {
+  .gj-footer-social li i {
     width: 30px !important;
     height: 30px !important;
     line-height: 30px !important;
@@ -35,15 +35,15 @@
   }
 
 
-  .jx-footer-social li {
+  .gj-footer-social li {
     margin-right: 2px !important;
   }
 
-  .jx-footer-social {
+  .gj-footer-social {
     padding: 30px 0px 0px !important;
   }
 
-  .jx-footer-widget {
+  .gj-footer-widget {
     padding-bottom: 10px;
     padding-left: 10px;
     padding-right: 10px;
@@ -56,13 +56,13 @@
   [2.0 Services ]
 ---------------------------------------------------------------*/
 
-  .jx-servicebox-1 .jx-service-item {
+  .gj-servicebox-1 .gj-service-item {
     padding-bottom:20px;
     margin-bottom:20px;
   }
 
 
-  .jx-servicebox-1 .jx-service-item .service-description p {
+  .gj-servicebox-1 .gj-service-item .service-description p {
     padding: 0px 0px;
   }
 
@@ -74,7 +74,7 @@
 ---------------------------------------------------------------*/
 
 
-  .jx-media-center .one-third.columns {
+  .gj-media-center .one-third.columns {
     margin-bottom: 40px;
   }
 
@@ -89,32 +89,32 @@
 
 
 
-   .jx-team img {
+   .gj-team img {
     width:100%;
    }
 
-   .jx-team .jx-team-item {
+   .gj-team .gj-team-item {
     //padding-bottom:40px;
     width:100%;
    }
 
-  .jx-team-item.jx-team-box-content {
+  .gj-team-item.gj-team-box-content {
     width: 100%;
   }
 
-  .jx-team-item {
+  .gj-team-item {
     width: 100%;
   }
 
-  .jx-team-item.jx-team-box-content .jx-title {
+  .gj-team-item.gj-team-box-content .gj-title {
     font-size: 25px;
   }
 
-  .jx-team-item.jx-team-box-content .jx-title span {
+  .gj-team-item.gj-team-box-content .gj-title span {
     font-size: 25px;
   }
 
-  .jx-image-wrapper:hover .jx-team-overlayer:after{
+  .gj-image-wrapper:hover .gj-team-overlayer:after{
     top:24px;
     left:27px;
     width:82%;
@@ -125,7 +125,7 @@
   [5.0  Countup ]
 ---------------------------------------------------------------*/
 
-  .jx-countup .count-item {
+  .gj-countup .count-item {
     padding-bottom:20px;
     margin-bottom:20px;
   }
@@ -137,10 +137,10 @@
 ---------------------------------------------------------------*/
 
 
-  .jx-section-title-1 .jx-title {
+  .gj-section-title-1 .gj-title {
       font-size: 25px !important;
   }
-  .jx-section-title-1 .jx-title-border {
+  .gj-section-title-1 .gj-title-border {
     width: 118px;
   }
 
@@ -151,26 +151,26 @@
   [7.0  Header ]
 ---------------------------------------------------------------*/
 
-  .jx-menu {
+  .gj-menu {
     display:none;
   }
 
 
 
-  .jx-event-title-box .jx-event-pretitle {
+  .gj-event-title-box .gj-event-pretitle {
     font-size: 16px !important;
   }
 
-  .jx-event-title-box .jx-event-title {
+  .gj-event-title-box .gj-event-title {
     font-size: 20px !important;
   }
 
-  .jx-event-title-box .jx-event-location {
+  .gj-event-title-box .gj-event-location {
     font-size: 12px !important;
   }
 
 
-  .jx-event-play i {
+  .gj-event-play i {
     width: 60px !important;
     height: 60px !important;
     line-height: 50px !important;
@@ -178,28 +178,28 @@
     border: 5px solid #FFF !important;
   }
 
-  .jx-event-title-box {
+  .gj-event-title-box {
     width: 180px !important;
     height: 80px !important;
     padding:10px !important;
   }
 
-  .jx-event-play {
+  .gj-event-play {
     width: 80px !important;
     height: 80px !important;
     padding-top: 10px !important;
   }
 
-  .jx-event-countdown {
+  .gj-event-countdown {
     display:none !important;
   }
 
-  .jx-right-vertical-border {
+  .gj-right-vertical-border {
     right: 110px;
     border-left:none !important;
   }
 
-  .jx-right-vertical-border .jx-date{
+  .gj-right-vertical-border .gj-date{
     display:none;
   }
 
@@ -217,7 +217,7 @@
 ---------------------------------------------------------------*/
 
 
-  .jx-accordion .title {
+  .gj-accordion .title {
     font-size:16px;
   }
 
@@ -225,16 +225,16 @@
   /*--------------- Normal According --------------*/
 
 
-  .jx-event-schedule .item {
+  .gj-event-schedule .item {
       display: inline;
   }
 
-  .jx-event-schedule .left-position {
+  .gj-event-schedule .left-position {
       width: 100%;
     float:none;
   }
 
-  .jx-event-schedule .right-position {
+  .gj-event-schedule .right-position {
     width: 100%;
     float: none;
     display: inherit;
@@ -245,28 +245,28 @@
     padding-bottom: 0px;
   }
 
-  .jx-event-schedule .head {
+  .gj-event-schedule .head {
     text-align: center;
     padding-bottom: 20px;
   }
 
-  .jx-event-schedule .date span {
+  .gj-event-schedule .date span {
     padding-right: 0px;
   }
 
-  .jx-event-schedule .date i {
+  .gj-event-schedule .date i {
       padding: 0px 3px 0px 15px;
   }
 
-  .jx-event-schedule p {
+  .gj-event-schedule p {
     text-align:left;
   }
 
-  .jx-event-schedule .date {
+  .gj-event-schedule .date {
       font-size: 14px;
   }
 
-  .jx-event-schedule .title {
+  .gj-event-schedule .title {
     font-size:14px;
   }
 
@@ -278,22 +278,22 @@
 ---------------------------------------------------------------*/
 
 
-  .shortcode_tab_e.jx-white-tab.jx-arrow-tab ul li {
+  .shortcode_tab_e.gj-white-tab.gj-arrow-tab ul li {
     width:30.3%;
       padding: 20px 0px 20px;
     margin-right: 13px;
   }
 
-  .shortcode_tab_e.jx-white-tab.jx-arrow-tab li.resp-tab-active {
+  .shortcode_tab_e.gj-white-tab.gj-arrow-tab li.resp-tab-active {
     width:30.3%;
       padding: 20px 0px 20px;
   }
 
-  .jx-tab-date {
+  .gj-tab-date {
       font-size: 20px;
   }
 
-  .jx-tab-day {
+  .gj-tab-day {
       font-size: 16px;
     margin:10px 0px 0px 0px;
   }
@@ -306,12 +306,12 @@
 
 
 
-  .shortcode_tab_e.jx-white-tab.jx-arrow-tab ul.jx-subtab li {
+  .shortcode_tab_e.gj-white-tab.gj-arrow-tab ul.gj-subtab li {
     font-size: 16px;
     line-height: 1.5;
   }
 
-  .shortcode_tab_e.jx-white-tab.jx-arrow-tab ul.jx-subtab li {
+  .shortcode_tab_e.gj-white-tab.gj-arrow-tab ul.gj-subtab li {
     width:100%;
     padding-bottom: 15px;
   }
@@ -324,50 +324,50 @@
 ---------------------------------------------------------------*/
 
 
-  .jx-countdown-form .jx-half-width {
+  .gj-countdown-form .gj-half-width {
     width: 100% !important;
   }
 
-  .jx-ticket-form h1 {
+  .gj-ticket-form h1 {
     font-size: 28px;
   }
 
 
-  .jx-ticket-form .jx-ticket-type, .jx-ticket-form .jx-ticket-valid {
+  .gj-ticket-form .gj-ticket-type, .gj-ticket-form .gj-ticket-valid {
     width:100%;
   }
 
-  .jx-ticket-form .jx-ticket-type {
+  .gj-ticket-form .gj-ticket-type {
     float: none;
     margin-right: 0px;
   }
 
 
 
-  .jx-countdown-form .jx-ticket-form {
+  .gj-countdown-form .gj-ticket-form {
     height: 470px;
   }
 
-  .jx-ticket-form, .jx-countdown-box {
+  .gj-ticket-form, .gj-countdown-box {
     padding: 40px 20px 0px 20px;
   }
 
 
   /*------------- Form ---------------*/
 
-  .jx-countdown-form .jx-countdown-box h1 {
+  .gj-countdown-form .gj-countdown-box h1 {
      font-size: 28px;
   }
-  .jx-countdown .counter-wrapper ul {
+  .gj-countdown .counter-wrapper ul {
     margin:0px;
     padding:0px;
     padding-top:20px;
   }
-  .jx-countdown .counter-wrapper li {
+  .gj-countdown .counter-wrapper li {
     margin-top: 0px;
   }
 
-  .jx-countdown-form .jx-countdown-box {
+  .gj-countdown-form .gj-countdown-box {
     height:570px;
   }
 
@@ -380,17 +380,17 @@
 ---------------------------------------------------------------*/
 
 
-  .jx-testimonial {
+  .gj-testimonial {
     min-height: 450px;
     padding-top: 20px;
   }
 
-  .jx-testimonial-item .jx-testimonial-image {
+  .gj-testimonial-item .gj-testimonial-image {
     float:none;
     margin-right: 0px;
   }
 
-  .jx-testimonial-details .jx-testimonial-icon {
+  .gj-testimonial-details .gj-testimonial-icon {
     height:auto;
   }
 
@@ -398,25 +398,25 @@
       font-size: 290px;
   }
 
-  .jx-testimonial-item .jx-photo {
+  .gj-testimonial-item .gj-photo {
     width: 90px;
     height: 90px;
     float: none;
     margin: 20px auto;
   }
 
-  .jx-testimonial-item .jx-testimonial-content {
+  .gj-testimonial-item .gj-testimonial-content {
     width: 100%;
     height: auto;
     float: none;
     margin-left: 0;
   }
 
-  .jx-testimonial-item .jx-testimonial-content .jx-name {
+  .gj-testimonial-item .gj-testimonial-content .gj-name {
     width: 100%;
   }
 
-  .jx-testimonial-item .jx-testimonial-content .jx-content p {
+  .gj-testimonial-item .gj-testimonial-content .gj-content p {
     color: #fff;
     padding: 10px 20px;
     line-height: 1.2;
@@ -430,27 +430,27 @@
 ---------------------------------------------------------------*/
 
 
-  .jx-price-table .jx-price-item {
+  .gj-price-table .gj-price-item {
     margin-bottom:40px;
   }
 
 
-  .jx-price-table .jx-price-item .jx-price {
+  .gj-price-table .gj-price-item .gj-price {
     font-size: 55px;
     padding: 10px 20px 0px;
     line-height: 85px;
   }
 
-  .jx-price-table .jx-price-item .jx-package-name {
+  .gj-price-table .gj-price-item .gj-package-name {
     font-size: 25px;
     margin-bottom: 15px;
   }
 
-  .jx-price-table .jx-price-item .jx-package-feature {
+  .gj-price-table .gj-price-item .gj-package-feature {
     padding: 0px 20px 15px;
   }
 
-  .jx-price-table .jx-price-item .jx-price span {
+  .gj-price-table .gj-price-item .gj-price span {
     font-size: 30px;
   }
 
@@ -459,7 +459,7 @@
   [14.0  Google Map  ]
 ---------------------------------------------------------------*/
 
-  .jx-hotel-name {
+  .gj-hotel-name {
     font-size: 16px;
     font-weight: 500;
   }
@@ -470,7 +470,7 @@
 ---------------------------------------------------------------*/
 
 
-  .jx-sponsor{
+  .gj-sponsor{
     overflow: hidden
   }
 
@@ -481,17 +481,17 @@
 ---------------------------------------------------------------*/
 
 
-  .jx-faq .jx-faq-head .jx-faq-title {
+  .gj-faq .gj-faq-head .gj-faq-title {
     width: 100%;
     float:none;
   }
 
-  .jx-faq-description {
+  .gj-faq-description {
     height:auto;
     padding:30px 20px 20px 20px;
   }
 
-  .jx-faq .jx-faq-head .jx-faq-title::after {
+  .gj-faq .gj-faq-head .gj-faq-title::after {
     left:43%;
   }
 
@@ -501,25 +501,25 @@
 ---------------------------------------------------------------*/
 
 
-  .jx-map-company > ul > li {
+  .gj-map-company > ul > li {
     width: 100%;
   }
 
-  .jx-single-point:nth-of-type(3) {
+  .gj-single-point:nth-of-type(3) {
     top: 18%;
     left:16%;
   }
 
-  .jx-single-point:nth-of-type(1) {
+  .gj-single-point:nth-of-type(1) {
      bottom: 76%;
      right:28%;
    }
 
-   .jx-single-point:nth-of-type(2) {
+   .gj-single-point:nth-of-type(2) {
     bottom: 73%;
   }
 
-  .jx-single-point:nth-of-type(4) {
+  .gj-single-point:nth-of-type(4) {
       top: 17%;
     right:16%;
   }
@@ -527,7 +527,7 @@
 
 
 
-    .jx-single-point .jx-more-info {
+    .gj-single-point .gj-more-info {
   position: absolute;
   width: 220px;
   height: 240px;
@@ -537,10 +537,10 @@
   border-radius: 0.25em;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
 }
-.jx-single-point .jx-more-info::before {
+.gj-single-point .gj-more-info::before {
   display: block;
 }
-.jx-single-point .jx-more-info.jx-left, .jx-single-point .jx-more-info.jx-right {
+.gj-single-point .gj-more-info.gj-left, .gj-single-point .gj-more-info.gj-right {
   top: 50%;
   bottom: auto;
   -webkit-transform: translateY(-50%);
@@ -549,7 +549,7 @@
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-.jx-single-point .jx-more-info.jx-left::before, .jx-single-point .jx-more-info.jx-right::before {
+.gj-single-point .gj-more-info.gj-left::before, .gj-single-point .gj-more-info.gj-right::before {
   top: 50%;
   bottom: auto;
   -webkit-transform: translateY(-50%);
@@ -558,22 +558,22 @@
   -o-transform: translateY(-50%);
   transform: translateY(-50%);
 }
-.jx-single-point .jx-more-info.jx-left {
+.gj-single-point .gj-more-info.gj-left {
   right: 160%;
   left: auto;
 }
-.jx-single-point .jx-more-info.jx-left::before {
+.gj-single-point .gj-more-info.gj-left::before {
   border-left-color: rgba(255, 255, 255, 0.95);
   left: 100%;
 }
-.jx-single-point .jx-more-info.jx-right {
+.gj-single-point .gj-more-info.gj-right {
   left: 160%;
 }
-.jx-single-point .jx-more-info.jx-right::before {
+.gj-single-point .gj-more-info.gj-right::before {
   border-right-color: rgba(255, 255, 255, 0.95);
   right: 100%;
 }
-.jx-single-point .jx-more-info.jx-top, .jx-single-point .jx-more-info.jx-bottom {
+.gj-single-point .gj-more-info.gj-top, .gj-single-point .gj-more-info.gj-bottom {
   left: 50%;
   right: auto;
   -webkit-transform: translateX(-50%);
@@ -582,7 +582,7 @@
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
 }
-.jx-single-point .jx-more-info.jx-top::before, .jx-single-point .jx-more-info.jx-bottom::before {
+.gj-single-point .gj-more-info.gj-top::before, .gj-single-point .gj-more-info.gj-bottom::before {
   left: 50%;
   right: auto;
   -webkit-transform: translateX(-50%);
@@ -591,33 +591,33 @@
   -o-transform: translateX(-50%);
   transform: translateX(-50%);
 }
-.jx-single-point .jx-more-info.jx-top {
+.gj-single-point .gj-more-info.gj-top {
   bottom: 160%;
   top: auto;
 }
-.jx-single-point .jx-more-info.jx-top::before {
+.gj-single-point .gj-more-info.gj-top::before {
   border-top-color: rgba(255, 255, 255, 0.95);
   top: 100%;
 }
-.jx-single-point .jx-more-info.jx-bottom {
+.gj-single-point .gj-more-info.gj-bottom {
   top: 160%;
 }
-.jx-single-point .jx-more-info.jx-bottom::before {
+.gj-single-point .gj-more-info.gj-bottom::before {
   border-bottom-color: rgba(255, 255, 255, 0.95);
   bottom: 100%;
 }
-.jx-single-point .jx-more-info h2 {
+.gj-single-point .gj-more-info h2 {
   font-size: 20px;
   font-size: 1.25rem;
   margin-bottom: 0;
 }
-.jx-single-point .jx-more-info p {
+.gj-single-point .gj-more-info p {
   font-size: 14px;
   font-size: 0.875rem;
 }
 
 
-.jx-close-info {
+.gj-close-info {
   display: none;
 }
 
@@ -627,11 +627,11 @@
 ---------------------------------------------------------------*/
 
 
-  .jx-contact-form .contact-full-name, .jx-contact-form .contact-email {
+  .gj-contact-form .contact-full-name, .gj-contact-form .contact-email {
     width: 100%;
   }
 
-  .jx-contact-form .contact-full-name {
+  .gj-contact-form .contact-full-name {
     float:  none;
     margin-right: 0px;
   }
@@ -641,7 +641,7 @@
   [19.0  Portfolio  ]
 ---------------------------------------------------------------*/
 
-.jx-custom-flex .flex-custom-control-nav li {
+.gj-custom-flex .flex-custom-control-nav li {
   padding: 10px 10px !important;
   width: 32%;
 }
@@ -651,18 +651,18 @@
   height: 47%;
 }
 
-.jx-grid-item.grid-item-width-double-only{
+.gj-grid-item.grid-item-width-double-only{
   width: 47%;
   height: 47%;
 }
 
-.jx-grid-item{
+.gj-grid-item{
     width: 47%;
     height: 47%;
     margin: 3px;
 }
 
-.jx-grid-item-full {
+.gj-grid-item-full {
   margin-bottom: 12px;
   width:100%;
   height: 100%;
@@ -673,47 +673,47 @@
   [20.0  Summary Info  ]
 ---------------------------------------------------------------*/
 
-  .jx-summary-info {
+  .gj-summary-info {
     height:auto;
   }
 
-  .jx-summary-info ul > li {
+  .gj-summary-info ul > li {
     border-right: none;
     border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   }
 
-  .jx-summary-info::after {
+  .gj-summary-info::after {
     left:44%;
   }
 
 
-  .jx-summary-info li .jx-info .jx-bar-head {
+  .gj-summary-info li .gj-info .gj-bar-head {
     font-size:30px;
   }
 
-  .jx-summary-info li .jx-info .jx-bar-title {
+  .gj-summary-info li .gj-info .gj-bar-title {
     font-size:18px;
   }
 
-  .jx-summary-info li i {
+  .gj-summary-info li i {
     font-size:50px;
   }
 
-  .jx-summary-info li .jx-subscribe-event .jx-newsletter-box {
+  .gj-summary-info li .gj-subscribe-event .gj-newsletter-box {
     width: 210px;
   }
 
-  .jx-summary-info li .jx-subscribe-event h2 {
+  .gj-summary-info li .gj-subscribe-event h2 {
     font-size:14px;
   }
 
-  .jx-summary-info li .jx-newsletter-submit input {
+  .gj-summary-info li .gj-newsletter-submit input {
     width:70px;
     font-size:14px;
     padding:0px;
   }
 
-  .jx-summary-info li .jx-info {
+  .gj-summary-info li .gj-info {
     padding-top:10px;
   }
 
@@ -723,30 +723,30 @@
 ---------------------------------------------------------------*/
 
 
-.jx-blog-head .jx-event-date {
+.gj-blog-head .gj-event-date {
   font-size: 16px !important;
 }
 
-.jx-blog-head .title a {
+.gj-blog-head .title a {
   font-size: 28px !important;
   line-height: 28px !important;
 }
 
 
-.jx-blog-head .jx-post-format i {
+.gj-blog-head .gj-post-format i {
   width: 40px !important;
   height: 40px !important;
   line-height: 40px !important;
   font-size: 20px !important;
 }
 
-.jx-blog-metabox span {
+.gj-blog-metabox span {
   margin-right: 0px !important;
   font-family: "Raleway" !important;
   font-size: 12px !important;
 }
 
-.jx-blog .image img {
+.gj-blog .image img {
   height: 200px !important;
 }
 
@@ -755,21 +755,21 @@
 }
 
 
-.jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb span.current {
+.gj-page-titlebar .gj-page-titlebar-items .gj-breadcrumb span.current {
   margin-top:15px !important;
   font-size:12px !important;
   // float:left !important;
 }
 
-.jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb a {
+.gj-page-titlebar .gj-page-titlebar-items .gj-breadcrumb a {
   font-size: 12px !important;
 }
 
-.jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb {
+.gj-page-titlebar .gj-page-titlebar-items .gj-breadcrumb {
   font-size:12px !important;
 }
 
-.jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb span.pre-breadcrumb::before {
+.gj-page-titlebar .gj-page-titlebar-items .gj-breadcrumb span.pre-breadcrumb::before {
   line-height: 25px !important;
 }
 
@@ -779,17 +779,17 @@
 ---------------------------------------------------------------*/
 
 
-  .jx-error .jx-error-msg {
+  .gj-error .gj-error-msg {
     font-size: 20px !important;
   }
 
-  .jx-error .jx-error-code {
+  .gj-error .gj-error-code {
     font-size: 80px !important;
     padding: 20px 0px 0px 0px !important;
   }
 
 
-  .jx-summary-info li .jx-info .jx-bar-head
+  .gj-summary-info li .gj-info .gj-bar-head
 	{
     padding-top: 8px;
 		font-size: 20px;
@@ -800,16 +800,16 @@
     display: block;
   }
 
-  div#latest-countdown .jx-countdown .counter-wrapper li:nth-child(2)
+  div#latest-countdown .gj-countdown .counter-wrapper li:nth-child(2)
   {
     margin-right: 0px;
   }
 
-  .jx-grid-item .logo-spacer
+  .gj-grid-item .logo-spacer
   {
     height: 20px;
   }
-  .jx-page-titlebar .jx-page-titlebar-items .jx-breadcrumb span.pre-breadcrumb {
+  .gj-page-titlebar .gj-page-titlebar-items .gj-breadcrumb span.pre-breadcrumb {
     display: none;
   }
 }

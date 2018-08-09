@@ -12,12 +12,12 @@ breadcrumb: archive
 ---
 
 <!-- Header -->
-<div id="section" class="jx-container jx-padding container-no-margin fractal-b-000">
+<div id="section" class="gj-container gj-padding container-no-margin fractal-b-000">
   <div class="container">
       <div class="eight columns">
-        <div class="jx-section-title title-light jx-dark">
-          <div class="jx-title jx-uppercase">PTBO Game Jam <span>04</span></div>
-          <div class="jx-hr-title"></div>
+        <div class="gj-section-title title-light gj-dark">
+          <div class="gj-title gj-uppercase">PTBO Game Jam <span>04</span></div>
+          <div class="gj-hr-title"></div>
         </div>
         <div class="section-content">
           <p>The third event was held <strong>February 23 to 25, 2018</strong> at Fleming College’s Kawartha Trades and Technology Centre. Turnout was amazing drawing <strong>more than 125 visitors</strong> to the venue, with <strong>71 developers</strong> participating as jammers over the weekend. We crunched through 318 slices of pizza whilst working on <strong>22 games</strong>, based on our <strong>Pirates Without Borders</strong> theme.</p>
@@ -29,10 +29,10 @@ breadcrumb: archive
       </div>
       
 
-      <div class="jx-sponsors sponsor-list">
-          <div class="jx-section-title title-light jx-dark">
-              <div class="jx-title jx-uppercase" style="clear: both; padding-top: 50px">EVENT <span>SPONSORS</span></div>
-              <div class="jx-hr-title"></div>
+      <div class="gj-sponsors sponsor-list">
+          <div class="gj-section-title title-light gj-dark">
+              <div class="gj-title gj-uppercase" style="clear: both; padding-top: 50px">EVENT <span>SPONSORS</span></div>
+              <div class="gj-hr-title"></div>
           </div>
         <ul>
           <li><a href="http://dotbunny.com"><div class="slide-contents gold-tier"><img src="/content/img/event/02/sponsors/dotbunny.jpg" alt="dotBunny"></div></a></li>
@@ -47,25 +47,25 @@ breadcrumb: archive
 </div>
 
 <!-- 04 Games List -->
-<div id='gallery' class="jx-container container-no-margin jx-padding background-005">
+<div id='gallery' class="gj-container container-no-margin gj-padding background-005">
   <div class="container ">
-    <div class="jx-team-item jx-team-box-content">
-        <a name="team"><div class="jx-title jx-uppercase">Some Of The <span>Games</span></div></a>
-        <div class="jx-hr-title"></div>
+    <div class="gj-team-item gj-team-box-content">
+        <a name="team"><div class="gj-title gj-uppercase">Some Of The <span>Games</span></div></a>
+        <div class="gj-hr-title"></div>
     </div>
     <div>Coming Soon</div>
     {% for item in site.archive %}
         {% if item.event == "04" and item.submitted == true %}
-        <div class="jx-grid-item ">
-          <div class="jx-image jx-image-wrapper">
+        <div class="gj-grid-item ">
+          <div class="gj-image gj-image-wrapper">
             {% if item.screenshots[0] %}
             <img class="max-width" src="{{ item.screenshots[0][0] | prepend: site.baseurl }}" alt="{{ item.title }}"/>
             {% else %}
             <img class="max-width" src="{{ "/content/img/event/game-template.jpg" | prepend: site.baseurl }}" alt="{{ item.title }}"/>
             {% endif %}
             <a href="{{ item.url | prepend: site.baseurl }}">
-              <div class="jx-image-overlayer"></div>
-              <div class="jx-image-hover">
+              <div class="gj-image-overlayer"></div>
+              <div class="gj-image-hover">
                 <i class="icon-link"></i>
               </div>
             </a>
@@ -77,19 +77,19 @@ breadcrumb: archive
 </div>
 
 <!-- Videos -->
-<div id='gallery' class="jx-container container-no-margin jx-padding background-003">
+<div id='gallery' class="gj-container container-no-margin gj-padding background-003">
   <div class="container ">
-      <div class="jx-section-title-1 jx-dark">
+      <div class="gj-section-title-1 gj-dark">
 
-          <div class="jx-pre-title jx-short-border">
-          <div class="jx-title-icon-light"><i class="icon-video"></i></div>
+          <div class="gj-pre-title gj-short-border">
+          <div class="gj-title-icon-light"><i class="icon-video"></i></div>
           </div>
-          <div class="jx-title jx-title-light jx-uppercase">Videos</div>
-          <div class="jx-subtitle"><p>Never to stop making <em>awesomeness</em> happen, we continued our tradition of pumping out innovative and impactful videos about the event.</p></div>
+          <div class="gj-title gj-title-light gj-uppercase">Videos</div>
+          <div class="gj-subtitle"><p>Never to stop making <em>awesomeness</em> happen, we continued our tradition of pumping out innovative and impactful videos about the event.</p></div>
       </div>
       {% for video in site.data.media-videos %}
         {% if video.event == "04" %}
-      <div class="jx-grid-item jx-grid-item-full">
+      <div class="gj-grid-item gj-grid-item-full">
         <iframe class="release-video" id="{{video.vimeo}}" src="https://player.vimeo.com/video/{{video.vimeo}}?api=1&player_id={{video.vimeo}}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen width="100%"></iframe>
         <div class="media-video-download"><a href="{{ video.url }}">{{ video.title }}</a></div>
       </div>
@@ -98,21 +98,21 @@ breadcrumb: archive
   </div>
 </div>
 
-<div id='gallery' class="jx-container container-no-margin jx-padding jx-black-bg background-008">
+<div id='gallery' class="gj-container container-no-margin gj-padding gj-black-bg background-008">
   <div class="container ">
-      <div class="jx-section-title-1 jx-dark">
-          <div class="jx-pre-title jx-short-border">
-            <div class="jx-title-icon"><i class="icon-picture color-white"></i></div>
+      <div class="gj-section-title-1 gj-dark">
+          <div class="gj-pre-title gj-short-border">
+            <div class="gj-title-icon"><i class="icon-picture color-white"></i></div>
           </div>
-          <div class="jx-title jx-uppercase">Photos</div>
-          <div class="jx-subtitle"><p>We were fortunate enough to have Randy Nickerson stop by and take some awesome photos. We also grabbed a few ourselves!</p></div>
+          <div class="gj-title gj-uppercase">Photos</div>
+          <div class="gj-subtitle"><p>We were fortunate enough to have Randy Nickerson stop by and take some awesome photos. We also grabbed a few ourselves!</p></div>
       </div>
       {% for image in site.data.gallery-04 %}
-      <div class="jx-grid-item">
-          <div class="jx-image jx-image-wrapper"><img width="400" src="{{ image.img | prepend: site.baseurl }}" alt="{{ image.alt }}" hdpi="true"/>
+      <div class="gj-grid-item">
+          <div class="gj-image gj-image-wrapper"><img width="400" src="{{ image.img | prepend: site.baseurl }}" alt="{{ image.alt }}" hdpi="true"/>
             <a href="{{ image.url | prepend: site.baseurl }}" title="{{ image.title }}" data-rel="prettyPhoto[event]">
-              <div class="jx-image-overlayer"></div>
-              <div class="jx-image-hover"><i class="icon-zoom-in"></i></div>
+              <div class="gj-image-overlayer"></div>
+              <div class="gj-image-hover"><i class="icon-zoom-in"></i></div>
             </a>
           </div>
       </div>

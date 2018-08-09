@@ -2,25 +2,25 @@
 layout: default
 ---
   <div class="container with-sidebar">
-    <div class="posts sixteen columns jx-padding alpha jx-blog">
-      <div id="post-{{ page.code }}" class="jx-blog post-{{ page.code }} post type-post status-publish format-video has-post-thumbnail hentry">
-        <div class="jx-blog-item">
+    <div class="posts sixteen columns gj-padding alpha gj-blog">
+      <div id="post-{{ page.code }}" class="gj-blog post-{{ page.code }} post type-post status-publish format-video has-post-thumbnail hentry">
+        <div class="gj-blog-item">
           {% if page.image %}
-          <div class="jx-blog-image">
-              <div class="image jx-image-wrapper">
+          <div class="gj-blog-image">
+              <div class="image gj-image-wrapper">
                 <img width="0" height="0" src="/content/img/post/{{page.image}}" class="attachment-blog size-blog " draggable="false" hdpi="true">
               </div>
           </div>
           {% endif %}
-          <div class="jx-blog-content clearfix">
-            <div class="jx-blog-head">
-              <div class="jx-post-format"><a href="{{ site.data.links-relative.files-releases | prepend: site.baseurl }}{{page.pdf}}"><i class="icon-file-pdf"></i></a></div>
-              <div class="jx-blog-meta">
-                <div class="jx-event-date">{{ page.date | date_to_string }}</div>
+          <div class="gj-blog-content clearfix">
+            <div class="gj-blog-head">
+              <div class="gj-post-format"><a href="{{ site.data.links-relative.files-releases | prepend: site.baseurl }}{{page.pdf}}"><i class="icon-file-pdf"></i></a></div>
+              <div class="gj-blog-meta">
+                <div class="gj-event-date">{{ page.date | date_to_string }}</div>
               </div>
               <div class="title"><a href="#{{ page.title | slugify }}">{{ page.title }}</a></div>
             </div>
-            <div class="jx-blog-metabox jx-single">
+            <div class="gj-blog-metabox gj-single">
               <span class="meta_categories"><i class="icon-tags"></i>
                 {% for tag in page.tags %}
                   {% if forloop.last %}
