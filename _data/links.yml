@@ -1,11 +1,7 @@
 dotbunny:       "http://dotbunny.com"
 dotbunny_api:   "https://api.dotbunny.com"
 
-meetup:         "http://www.meetup.com/PTBOGameDev/"
-forum:          "http://forum.dotbunny.com/forums/gamejam/"
-
-slack:          "https://peterboroughtech.slack.com/messages/ptbogamejam/"
-slack_invite:   "https://peterboroughtech.herokuapp.com/"
-
-discord:        "http://discord.me/ptbogamejam"
+discord:        "http://discord.gg/ptbogamejam"
 swag:           "http://ptbogamejam.entripyshops.com/"
+
+calendar:       "https://calendar.google.com/calendar/embed?src=dotbunny.com_0ic6l2p48mdom6nhoap4og27d8%40group.calendar.google.com&ctz=America%2FToronto"
