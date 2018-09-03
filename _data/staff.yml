@@ -34,7 +34,7 @@
   webpage:    "http://brijam.com/"
   twitter:    "https://twitter.com/mbjamieson"
   linkedin:   "https://www.linkedin.com/in/briar-jamieson-18708459/"
-  status:     true
+  status:     false
 
 - name:       "Phil Laliberte"
   picture:    "/content/img/team/phil-laliberte.jpg"
