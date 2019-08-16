@@ -9,8 +9,8 @@ layout: compress
     <div id="home">
       <div class="full-video-container gj-parallax-fullwidth">
           <a href="{{ site.data.latest.link | prepend: site.baseurl }}" title="{{ site.data.latest.title }}">
-          <video id="titlebar-video" playsinline="" autoplay="" muted="" loop="" poster="/content/img/slides/slide-blank-04.jpg">
-            <source src="https://player.vimeo.com/external/193577058.sd.mp4?s=58fd6b9989396a867d3e83f29f14b338def450dd&profile_id=165" type="video/mp4">
+          <video id="titlebar-video" playsinline="true" autoplay="true" muted="true" loop="true" poster="/content/img/slides/slide-blank-04.jpg">
+            <source src="https://videos.files.wordpress.com/mziCh93g/ptbogamejam-lander04_hd.mp4" type="video/mp4">
           </video>
           <div class="lander-info">
             <div class="container">
@@ -44,7 +44,7 @@ layout: compress
                   <div class="gj-info-content">
                     <div class="info-title">SPONSORS</div>
                     <!-- <div class="info-description">{{ site.data.latest-sponsors | size }} Supporters</div> -->
-                    <div class="info-description"><a class="lander-link" href="mailto:hello@ptbogamejam.com">Contact Us</a></div>
+                    <div class="info-description"><a class="lander-link" href="mailto:{{ site.email }}">Contact Us</a></div>
                   </div>
                 </li>
               </ul>

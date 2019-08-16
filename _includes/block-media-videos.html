@@ -1,23 +1,21 @@
 <div id='videos' class="gj-container container-no-margin gj-padding background-001">
+    <div class="container ">
+        <div class="gj-section-title-1 gj-dark">
 
-            <div class="container ">
-                <div class="gj-section-title-1 gj-dark">
-
-                    <div class="gj-pre-title gj-short-border">
-                    <div class="gj-title-icon-light"><i class="icon-video"></i></div>
-                    </div>
-                    <div class="gj-title gj-title-light gj-uppercase">Video Footage</div>
-                    <div class="gj-subtitle"><p>Here's a quick comprehensive list of all our released video footage available through Vimeo. Each video’s page on Vimeo has a download link to the original source file. We ask that credit be given if any clips are used from the videos.</p></div>
-                </div>
-                <!-- START 01 -->
-
-                {% for video in site.data.media-videos %}
-
-                <div class="gj-grid-item gj-grid-item-full">
-                  <iframe class="release-video" id="{{video.vimeo}}" src="https://player.vimeo.com/video/{{video.vimeo}}?api=1&player_id={{video.vimeo}}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen width="100%"></iframe>
-                  <div class="media-video-download"><a href="{{ video.url }}">{{ video.title }}</a></div>
-                </div>
-
-                {% endfor %}
+            <div class="gj-pre-title gj-short-border">
+            <div class="gj-title-icon-light"><i class="icon-video"></i></div>
             </div>
+            <div class="gj-title gj-title-light gj-uppercase">Video Footage</div>
+            <div class="gj-subtitle"><p>Here's a quick comprehensive list of all our released video footage available through YouTube. We ask that credit be given if any clips are used from the videos.</p></div>
         </div>
+        <!-- START 01 -->
+        {% for video in site.data.media-videos %}
+
+        <div class="gj-grid-item gj-grid-item-full">
+            <iframe class="release-video" id="{{video.code}}" src="{{ site.data.links.youtube-embed }}{{video.code}}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen width="100%"></iframe>
+            <div class="media-video-download"><a href="{{ site.data.links.youtube-link }}{{video.code}}{{ video.url }}">{{ video.title }}</a></div>
+        </div>
+
+        {% endfor %}
+    </div>
+</div>

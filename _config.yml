@@ -26,6 +26,8 @@ exclude:
   - content/vendor/form-validator/form-test.html
   - content/vendor/form-validator/qunit.html
   - start.command
+  - start.bat
+  - setup.bat
 
 # Number of blog posts per page
 paginate: 5
@@ -63,7 +65,7 @@ defaults:
 
 # Site settings
 title: PTBO Game Jam
-email: "hello@ptbogamejam.com"
+email: "ptbogamejam@gmail.com"
 description: > # this means to ignore newlines until "baseurl:"
   The PTBO Game Jam is a gathering of industry professionals, hobbyists, and students eager to creating video games in a short fixed period of time.
 
@@ -76,7 +78,7 @@ markdown: kramdown
 
 google_analytics: "UA-11332795-6"
 google_api_key: "AIzaSyDtYuwLCEBRLorbWUdeCgHZjqOqM92Mjg4"
-volunteer_email: "mailto:hello@ptbogamejam.com?subject=I%20want%20to%20Volunteer!"
+volunteer_email: "mailto:ptbogamejam@gmail.com?subject=I%20want%20to%20Volunteer!"
 
 titlebar: "title-001.jpg"
 
@@ -91,5 +93,4 @@ venue_longitude: "-73.8400"
 press_prefix: "He"
 press_name: "Matthew Davey"
 press_email: "matthew.davey@dotbunny.com"
-press_phone: "+1 (888) 632-1993 x700"
 press_kit: "/files/branding/PTBOGameJam_PressKit.zip"

@@ -54,10 +54,10 @@
   img:    "/content/img/friends/unity.jpg"
   type:   "industry"
 
-- name:   "Gotta Havva Pizza"
-  url:    "http://www.gottahavvapizza.com/"
-  img:    "/content/img/friends/gottahavva.jpg"
-  type:   "local"
+#- name:   "Gotta Havva Pizza"
+#  url:    "http://www.gottahavvapizza.com/"
+#  img:    "/content/img/friends/gottahavva.jpg"
+#  type:   "local"
 
 - name:   "Igniter Ticket"
   url:    "http://ignitertickets.com/"
@@ -69,10 +69,10 @@
   img:    "/content/img/friends/pagefolio.jpg"
   type:   "local"
 
-- name:   "Peterborough Tech Advisory Council"
-  url:    "http://ptbotac.org/"
-  img:    "/content/img/friends/ptac.jpg"
-  type:   "local"
+#- name:   "Peterborough Tech Advisory Council"
+#  url:    "http://ptbotac.org/"
+#  img:    "/content/img/friends/ptac.jpg"
+#  type:   "local"
 
 - name:   "Prima IP"
   url:    "http://www.primaip.com/"

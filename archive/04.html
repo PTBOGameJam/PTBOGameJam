@@ -25,7 +25,7 @@ breadcrumb: archive
         </div>
       </div>
       <div class="eight columns">
-        <div class="content-spacer"><iframe src="https://player.vimeo.com/video/256631090" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>
+        <div class="content-spacer"><iframe src="https://www.youtube.com/embed/Ptvt9ykyTeU" width="640" height="360" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe></div>
       </div>
       
 
@@ -90,8 +90,8 @@ breadcrumb: archive
       {% for video in site.data.media-videos %}
         {% if video.event == "04" %}
       <div class="gj-grid-item gj-grid-item-full">
-        <iframe class="release-video" id="{{video.vimeo}}" src="https://player.vimeo.com/video/{{video.vimeo}}?api=1&player_id={{video.vimeo}}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen width="100%"></iframe>
-        <div class="media-video-download"><a href="{{ video.url }}">{{ video.title }}</a></div>
+        <iframe class="release-video" id="{{video.code}}" src="{{ site.data.links.youtube-embed }}{{video.code}}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen width="100%"></iframe>
+        <div class="media-video-download"><a href="{{ site.data.links.youtube-link }}{{video.code}}">{{ video.title }}</a></div>
       </div>
         {% endif %}
       {% endfor %}

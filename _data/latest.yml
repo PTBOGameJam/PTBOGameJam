@@ -8,8 +8,8 @@ ics:              "#notarget"
 # date_countdown:   "24 Feb 2018 09:00"
 # countdown:        "24 february 2018 09:00:00"
 
-date_long:        "March 2019"
-date_short:       "Mar 2019"
+date_long:        "February 2029"
+date_short:       "Feb 2020"
 date_countdown:   "24 Feb 2018 09:00"
 countdown:        "24 february 2018 09:00:00"
 
@@ -35,4 +35,4 @@ registration:     "#soon"
 spots:            "100"
 
 
-latest_video:     "https://player.vimeo.com/video/256631090"
+latest_video:     "https://www.youtube.com/embed/Ptvt9ykyTeU"

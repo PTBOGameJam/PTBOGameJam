@@ -1,7 +1,9 @@
 dotbunny:       "http://dotbunny.com"
-dotbunny_api:   "https://api.dotbunny.com"
 
 discord:        "http://discord.gg/ptbogamejam"
 swag:           "http://ptbogamejam.entripyshops.com/"
 
 calendar:       "https://calendar.google.com/calendar/embed?src=dotbunny.com_0ic6l2p48mdom6nhoap4og27d8%40group.calendar.google.com&ctz=America%2FToronto"
+
+youtube-link:   "https://www.youtube.com/watch?v="
+youtube-embed:  "https://www.youtube.com/embed/"

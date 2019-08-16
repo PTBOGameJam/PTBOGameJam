@@ -228,18 +228,18 @@ onResizeSite();
 $(document).ready(function(){ onReadySite(); });
 function onReadySite()
 {
-  // Find all countdowns and setup
-  if ($(".countdown").length > 0)
-  {
-    var cache = $(".countdown");
-    cache.jCounter({
-      date: cache.data("countdown"),
-      timezone: "America/Toronto",
-      format: "dd:hh:mm:ss",
-      twoDigits: 'on',
-      fallback: function() { console.log("Counter finished!") }
-    });
-  }
+  // // Find all countdowns and setup
+  // if ($(".countdown").length > 0)
+  // {
+  //   var cache = $(".countdown");
+  //   cache.jCounter({
+  //     date: cache.data("countdown"),
+  //     timezone: "America/Toronto",
+  //     format: "dd:hh:mm:ss",
+  //     twoDigits: 'on',
+  //     fallback: function() { console.log("Counter finished!") }
+  //   });
+  // }
 
 
 
