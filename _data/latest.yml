@@ -1,18 +1,10 @@
 title:            "PTBO Game Jam 05"
 link:             "/event/"
-ics:              "#notarget"
-#ics:              "/content/ics/PTBOGameJam02.ics"
 
-# date_long:        "February 23-25 2018"
-# date_short:       "23-25 Feb 2018"
-# date_countdown:   "24 Feb 2018 09:00"
-# countdown:        "24 february 2018 09:00:00"
-
-date_long:        "February 2029"
-date_short:       "Feb 2020"
-date_countdown:   "24 Feb 2018 09:00"
-countdown:        "24 february 2018 09:00:00"
-
+date_long:        "March 13-15 2020"
+date_short:       "13-15 March 2020"
+date_countdown:   "14 Mar 2020 09:00"
+countdown:        "March 14, 2020 09:00:00 GMT-5"
 hours_work:       "32"
 hours_edu:        "5"
 prizes:           "1"
@@ -24,15 +16,15 @@ marker-lat:       44.267328168782846
 marker-long:      -78.37285491793824
 
 
-#location:         "Kawartha Trades &amp; Technology Centre"
-location:         "Coming Soon"
+location:         "Kawartha Trades &amp; Technology Centre"
+#location:         "Coming Soon"
 address-1:        "599 Brealey Drive"
 address-2:        "Peterborough, Ontario K9J 7B1"
 address-3:        ""
 
-#registration:     "https://ptbogamejam04.eventbrite.ca"
+#registration:     "https://ptbogamejam05.eventbrite.ca"
 registration:     "#soon"
-spots:            "100"
+spots:            "75"
 
 
 latest_video:     "https://www.youtube.com/embed/Ptvt9ykyTeU"

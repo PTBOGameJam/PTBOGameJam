@@ -8,10 +8,10 @@
       <div class="gj-subtitle"><p>This event would not have been possible without the contributions of our sponsors. We would like to extended our sincere thanks and appreciation to them for putting their faith in our noble cause.</p></div>
     </div>
       <div id="sponsors-list">
-  {% assign gold = site.data.latest-sponsors | where: 'tier', 'gold' %}
-  {% assign silver = site.data.latest-sponsors | where: 'tier', 'silver' %}
-  {% assign bronze = site.data.latest-sponsors | where: 'tier', 'bronze' %}
-        <div class="gj-sponsors gold-sponsors">
+  <!-- {% assign gold = site.data.latest-sponsors | where: 'tier', 'gold' %} -->
+  <!-- {% assign silver = site.data.latest-sponsors | where: 'tier', 'silver' %}   | where: 'tier', 'bronze'-->
+  {% assign bronze = site.data.latest-sponsors %}
+        <!-- <div class="gj-sponsors gold-sponsors">
           <div class="gj-team-item gj-team-box-content sponsors-title">
             <a name="team"><div class="gj-title gj-uppercase">Gold <span>Tier</span></div></a>
             <div class="gj-hr-title"></div>
@@ -33,28 +33,19 @@
             <li><a href="{{ sponsor.url }}"><div class="slide-contents"><img src="{{ sponsor.img | prepend: site.baseurl }}" alt="{{ sponsor.name }}"></div></a></li>
         {% endfor %}
           </ul>
-        </div>
+        </div> -->
 
         <div class="gj-sponsors bronze-sponsors">
-          <div class="gj-team-item gj-team-box-content sponsors-title">
+          <!-- <div class="gj-team-item gj-team-box-content sponsors-title">
             <a name="team"><div class="gj-title gj-uppercase">Bronze <span>Tier</span></div></a>
             <div class="gj-hr-title"></div>
-          </div>
+          </div> -->
           <ul class="no-bottom-margin">
         {% for sponsor in bronze %}
             <li><a href="{{ sponsor.url }}"><div class="slide-contents"><img src="{{ sponsor.img | prepend: site.baseurl }}" alt="{{ sponsor.name }}"></div></a></li>
         {% endfor %}
           </ul>
         </div>
-        <!-- <div class="gj-sponsors media-partners">
-          <div class="gj-team-item gj-team-box-content sponsors-title">
-            <a name="team"><div class="gj-title gj-uppercase">Funding <span>Partners</span></div></a>
-            <div class="gj-hr-title"></div>
-          </div>
-          <ul class="no-bottom-margin">
-            <li><a href="http://sofii.ca/"><div class="slide-contents"><img src="/content/img/event/04/sponsors/sofii.jpg" alt="Southern Ontario Fund for Investment in Innovation"></div></a></li>
-          </ul>
-        </div> -->
       </div>
     </div>
   </div>

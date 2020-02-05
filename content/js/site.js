@@ -228,21 +228,28 @@ onResizeSite();
 $(document).ready(function(){ onReadySite(); });
 function onReadySite()
 {
-  // // Find all countdowns and setup
-  // if ($(".countdown").length > 0)
-  // {
-  //   var cache = $(".countdown");
-  //   cache.jCounter({
-  //     date: cache.data("countdown"),
-  //     timezone: "America/Toronto",
-  //     format: "dd:hh:mm:ss",
-  //     twoDigits: 'on',
-  //     fallback: function() { console.log("Counter finished!") }
-  //   });
-  // }
+  // Find all countdowns and setup
+  if ($(".countdown").length > 0)
+  {
+    var date = new Date($(".countdown").data("countdown"));
+    $('.countdown').countdown(date, function(event) {
 
+      if (event.elapsed) {
+        $('.days').html("00");
+        $('.hours').html("00");
+        $('.minutes').html("00");
+        $('.seconds').html("00");
+      }
+      else
+      {
+        $('.days').html(event.strftime('%D'));
+        $('.hours').html(event.strftime('%H'));
+        $('.minutes').html(event.strftime('%M'));
+        $('.seconds').html(event.strftime('%S'));
+      }
 
-
+    });
+  }
 
   //Count Go up
   $('.gj-counter-number').animate({marginTop:0},1000,'swing');

@@ -34,7 +34,7 @@ Version: 		1.0
 			this.animation();
 
 			// Tabs
-			this.tabs();
+			//this.tabs();
 
 			// Lightbox
 			this.prettyPhoto();
@@ -70,11 +70,6 @@ Version: 		1.0
 		onLoad: function(){
 
 			jQuery(window).on("load",function(){
-
-				//Form validator
-				jQuery.validate({
-					modules : 'date, security'
-				});
 				jQuery('.gj-parallax-fullwidth').css({'height':((jQuery(window).height()))+'px'});
 			});
 
