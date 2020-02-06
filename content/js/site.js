@@ -225,9 +225,8 @@ function onResizeSite()
 }
 onResizeSite();
 
-$(document).ready(function(){ onReadySite(); });
-function onReadySite()
-{
+window.addEventListener('DOMContentLoaded', (event) => {
+
   // Find all countdowns and setup
   if ($(".countdown").length > 0)
   {
@@ -273,7 +272,7 @@ function onReadySite()
     delay: 30,
     time: 1000
   });
-}
+});
 
 // Handle Subscriber Button
 $('#mailinglist').submit(function() {
