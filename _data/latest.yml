@@ -22,8 +22,8 @@ address-1:        "599 Brealey Drive"
 address-2:        "Peterborough, Ontario K9J 7B1"
 address-3:        ""
 
-#registration:     "https://ptbogamejam05.eventbrite.ca"
-registration:     "#soon"
+registration:     "https://ptbogamejam05.eventbrite.ca"
+#registration:     "#soon"
 spots:            "75"
 
 
