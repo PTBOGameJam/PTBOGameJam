@@ -246,7 +246,45 @@ window.addEventListener('DOMContentLoaded', (event) => {
         $('.minutes').html(event.strftime('%M'));
         $('.seconds').html(event.strftime('%S'));
       }
+    });
+  }
 
+  // Handle Schedule
+  if($(".resp-tabs-container").length > 0)
+  {
+    // Default State
+    $("#tab1").addClass("resp-tab-active");
+    $("#ChildTab-1").css("display", "block");
+    $("#ChildTab-2").css("display", "none");
+    $("#ChildTab-3").css("display", "none");
+
+    // Bind events
+    $("#tab1").click(function() {
+
+      $("#tab1").addClass("resp-tab-active");
+      $("#ChildTab-1").css("display", "block");
+      $("#tab2").removeClass("resp-tab-active");
+      $("#ChildTab-2").css("display", "none");
+      $("#tab3").removeClass("resp-tab-active");
+      $("#ChildTab-3").css("display", "none");
+    });
+
+    $("#tab2").click(function() {
+      $("#tab1").removeClass("resp-tab-active");
+      $("#ChildTab-1").css("display", "none");
+      $("#tab2").addClass("resp-tab-active");
+      $("#ChildTab-2").css("display", "block");
+      $("#tab3").removeClass("resp-tab-active");
+      $("#ChildTab-3").css("display", "none");
+    });
+
+    $("#tab3").click(function() {
+      $("#tab1").removeClass("resp-tab-active");
+      $("#ChildTab-1").css("display", "none");
+      $("#tab2").removeClass("resp-tab-active");
+      $("#ChildTab-2").css("display", "none");
+      $("#tab3").addClass("resp-tab-active");
+      $("#ChildTab-3").css("display", "block");
     });
   }
 
