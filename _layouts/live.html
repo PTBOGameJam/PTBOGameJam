@@ -5,7 +5,7 @@ layout: compress
 <html>
     {% include head.html %}
     <head>
-        <title>PTBO Game Jam 05</title>
+        <title>{{ page.title }}</title>
     </head>
     <body>
         <style>
@@ -16,12 +16,15 @@ layout: compress
         <div id="home" class="gj-page-titlebar">
             <div class="page-titlebar-bg parallax-no {% if page.titlebar-video %}full-video-container{% endif %} {% if page.background-style %}{{ page.background-style }}{% endif %}" style="{% if page.background-height %}min-height: {{ page.background-height }} !important;{% endif %}background:url({% if page.titlebar %}{{ "/content/img/titlebars/" | prepend: site.baseurl }}{{page.titlebar}}{% else %}{{ "/content/img/titlebars/" | prepend: site.baseurl }}{{site.titlebar}}{% endif %});background-position:{% if page.background-position %}{{ page.background-position }}{% else %}bottom{% endif %}; background-repeat: no-repeat; {% if page.background-color %}background-color:{{ page.background-color }};{% endif %}background-size:{% if page.background-size %}{{ page.background-size }}{% else %}cover{% endif %};" hdpi="true">
               {% if page.titlebar-video %}<video id="titlebar-video" playsinline="" autoplay="" muted="" loop="" poster="{{ "/content/img/titlebars/" | prepend: site.baseurl }}{{page.titlebar}}"><source src="{{ page.titlebar-video }}" type="video/mp4"></video>{% endif %}
-            <div class="hidden-spacer"></div> 
-            <div class="live-countdown"></div>
+             
+                <div class="live-countdown"></div>
+
+                <div id="live-wifi">
+                    <div id="live-wifi-ssid">PTBOGameJamSSID</div>
+                    <div id="live-wifi-passwd">SomethingSomethingDarkSide</div>
+                </div>
             </div>
-          </div>
-          
-        <div class="live-bypass"><a class="live-link" href="http://ptbogamejam.com/event/schedule/">SCHEDULE</a><a class="live-link" href="http://ptbogamejam.com/home/">MAIN PAGE</a><a class="live-link" href="http://discord.gg/ptbogamejam/">DISCORD</a></div>
+        </div>
         {% if page.script %}
             {% include scripts.html script=page.script %}
         {% else %}

@@ -1,0 +1,54 @@
+div#live-wifi {
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+}
+div#live-wifi-ssid
+{
+    text-align: right;
+    color: #dbecff;
+    font-weight: lighter;
+}
+div#live-wifi-passwd
+{
+    text-align: right;
+    color: #dbecff;
+    font-weight: bold;
+}
+
+
+.live-bypass
+{
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  vertical-align: middle;
+}
+.live-link
+{
+  display: block;
+  float: left;
+  width: 33.33%;
+  height: 100%;
+  text-align: center;
+  background-color: #050722;
+  vertical-align: middle;
+  color: #fff;
+  font-family: "Raleway",Arial,Helvetica;
+  font-size: xx-large;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 33px;
+}
+
+.live-link:hover {
+  transition-duration: 0.5s;
+  background-color: #dbecff;
+  color: #050722;
+}
+a.lander-link {
+  color: #fff !important;
+}
+a.lander-link:hover {
+  color: #fff !important;
+}
