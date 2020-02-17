@@ -3188,7 +3188,7 @@ position-relative {
   width: 33.33%;
   height: 100%;
   text-align: center;
-  background-color: #0cf;
+  background-color: #050722;
   vertical-align: middle;
   color: #fff;
   font-family: "Raleway",Arial,Helvetica;
@@ -3199,8 +3199,9 @@ position-relative {
 }
 
 .live-link:hover {
-  background-color: #333;
-  color: #fff;
+  transition-duration: 0.5s;
+  background-color: #dbecff;
+  color: #050722;
 }
 a.lander-link {
   color: #fff !important;
