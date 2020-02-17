@@ -249,6 +249,29 @@ window.addEventListener('DOMContentLoaded', (event) => {
     });
   }
 
+    // Find all countdowns and setup
+    if ($(".countdown-deadline").length > 0)
+    {
+      var date = new Date($(".countdown-deadline").data("countdown"));
+      $('.countdown-deadline').countdown(date, function(event) {
+  
+        if (event.elapsed) {          
+          $('.hours').html("00");
+          $('.minutes').html("00");
+          $('.seconds').html("00");
+        }
+        else
+        {          
+          var days = eval(event.strftime('%D')) * 24;
+          var hours = eval(event.strftime('%H')) + days;
+
+          $('.hours').html(hours);          
+          $('.minutes').html(event.strftime('%M'));
+          $('.seconds').html(event.strftime('%S'));
+        }
+      });
+    }
+
   // Handle Schedule
   if($(".resp-tabs-container").length > 0)
   {

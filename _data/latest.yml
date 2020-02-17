@@ -29,3 +29,7 @@ spots:            "75"
 
 latest_video:     "https://www.youtube.com/embed/Ptvt9ykyTeU"
 about_video:      "https://www.youtube.com/embed/L-j6oYJod5Q"
+
+# Live Page
+live_date_countdown:   "15 Mar 2020 17:00"
+live_countdown:        "March 15, 2020 17:00:00 GMT-5"

@@ -13,11 +13,35 @@ layout: compress
                 display:none;
             }
         </style>
-        <div id="home" class="gj-page-titlebar">
+        <div id="home" class="gj-page-titlebar live-page">
             <div class="page-titlebar-bg parallax-no {% if page.titlebar-video %}full-video-container{% endif %} {% if page.background-style %}{{ page.background-style }}{% endif %}" style="{% if page.background-height %}min-height: {{ page.background-height }} !important;{% endif %}background:url({% if page.titlebar %}{{ "/content/img/titlebars/" | prepend: site.baseurl }}{{page.titlebar}}{% else %}{{ "/content/img/titlebars/" | prepend: site.baseurl }}{{site.titlebar}}{% endif %});background-position:{% if page.background-position %}{{ page.background-position }}{% else %}bottom{% endif %}; background-repeat: no-repeat; {% if page.background-color %}background-color:{{ page.background-color }};{% endif %}background-size:{% if page.background-size %}{{ page.background-size }}{% else %}cover{% endif %};" hdpi="true">
-              {% if page.titlebar-video %}<video id="titlebar-video" playsinline="" autoplay="" muted="" loop="" poster="{{ "/content/img/titlebars/" | prepend: site.baseurl }}{{page.titlebar}}"><source src="{{ page.titlebar-video }}" type="video/mp4"></video>{% endif %}
-             
-                <div class="live-countdown"></div>
+              {% if page.titlebar-video %}<video id="titlebar-video" playsinline="" autoplay="" muted="" loop="" poster="{{ "/content/img/titlebars/" | prepend: site.baseurl }}{{page.titlebar}}"><source src="{{ page.titlebar-video }}" type="video/mp4"></video>{% endif %}                             
+                <div id="live-countdown">
+                    <div class="gj-countdown-box-2" data-time="{{ site.data.latest.live_date_countdown }}">
+                        <div class="gj-countdown">
+                            <div class="countdown-deadline" data-countdown="{{ site.data.latest.live_countdown }}">
+                                <div class="counter-wrapper">
+                                    <ul>
+                                        <li>
+                                            <div class="hours count">00</div>
+                                            <div class="textHours count-text">Hours</div>
+                                        </li>
+                                        <div class="hidden-break"></div>
+                                        <li>
+                                            <div class="minutes count">00</div>
+                                            <div class="textmins count-text">Mins</div>
+                                        </li>
+                                        <li>
+                                            <div class="seconds count">00</div>
+                                            <div class="textSecs count-text">Secs</div>
+                                        </li>
+                                    </ul>
+                                    <div class="jC-clear"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
                 <div id="live-wifi">
                     <div id="live-wifi-ssid">PTBOGameJamSSID</div>
@@ -25,6 +49,7 @@ layout: compress
                 </div>
             </div>
         </div>
+        <img src="/files/events/05/PTBOGameJam05-Mono.png" id="live-branding" />
         {% if page.script %}
             {% include scripts.html script=page.script %}
         {% else %}
