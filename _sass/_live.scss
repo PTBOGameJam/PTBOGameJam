@@ -8,14 +8,25 @@
   border-color: #dbecff;
   border-style: solid;
   border-width: 4px;
+  padding: 0px !important;
   width: 15vw;
   height: 15vw;
+  display: inline-block !important;
 }
 
 .live-page .gj-countdown .counter-wrapper li .count
 {
-  display: block;
-  font-size: 10rem !important;  
+  position: relative !important;
+  height: 15vw;
+  width: 15vw;
+  text-align: center;
+  vertical-align: middle;
+  padding: 0px !important;
+  left: -4px !important;
+  top: -4px !important;
+  line-height: 13.5vw !important;
+  font-size: 12vw !important;
+  overflow: hidden;
 }
 
 img#live-branding {
