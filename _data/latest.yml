@@ -15,8 +15,8 @@ map-zoom:         "14"
 marker-lat:       44.267328168782846
 marker-long:      -78.37285491793824
 
-
-location:         "Kawartha Trades &amp; Technology Centre"
+location:         "Peterborough, Ontario, Canada"
+#location:         "Kawartha Trades &amp; Technology Centre"
 #location:         "Coming Soon"
 address-1:        "599 Brealey Drive"
 address-2:        "Peterborough, Ontario K9J 7B1"
